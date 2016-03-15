@@ -17,7 +17,7 @@
             <div style="display: block; height: 100px; width: 100px; background: transparent center center no-repeat url(images/icons/icon-play.svg); background-size: contain;"></div>
         </a>
 
-		<h1>The First Smart Compression Suit <br/><span> That Tracks Full-Body Movement In 3D</span></h1>
+		<h1>The First Smart Compression Suit <br/><span> That Tracks Full-Body Movement In 3D!</span></h1>
 
 		<div class="row">
 		    <div class="col-xs-12 col-md-4 col-md-offset-2" style="margin-bottom: 20px;">
