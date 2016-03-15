@@ -17,6 +17,13 @@ $(window).scroll(function() {
 // Quotation form.
 $(document).ready(function() {
 
+    // Enable Select2 styling on dropdown
+    $('#company_size').select2({
+        theme: "bootstrap",
+        placeholder: "Company Size",
+        allowClear: false,
+    });
+
     // Send a common pageview to GA from the English or French website.
     ga('send', 'pageview', '/quotation-form-landed');
 
@@ -29,7 +36,7 @@ $(document).ready(function() {
 
         // Validate phone #.
         var phone = this.phone.value.replace(/([^0-9])/g, '');
-        if (phone.length < 6)
+        if (phone.length > 0 && phone.length < 6)
         {
             $(this).find('.form-control').prop('disabled', false);
             $(this.phone).parent().find('.error').slideDown();

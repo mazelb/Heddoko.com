@@ -129,9 +129,13 @@ if (count($dir) > 1)
       <script src="<?php echo $dir; ?>./js/libs/respond.js"></script>
 <![endif]-->
 
+<link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="/css/select2-bootstrap.min.css">
+
 <!-- Style Switch -->
 <link rel="stylesheet" href="<?php echo $dir; ?>css/colors/heddoko.css" />
 <link rel="stylesheet" href="<?php echo $dir; ?>css/defaults.css?20151013" />
+<link rel="stylesheet" href="<?php echo $dir; ?>css/v2.css" />
 
 <!-- WEBFONTS -->
 <!-- insert script here -->

@@ -16,6 +16,13 @@ SLIDER
 $(document).ready(function() {
 	"use strict";
 
+	// Enable Select2
+	$('#mce-MMERGE3').select2({
+	    theme: "bootstrap",
+	    placeholder: "Profession",
+	    allowClear: false,
+	});
+
 	//reset header height
 	function resetHeight() {
 		var windowHeight = $(window).height();

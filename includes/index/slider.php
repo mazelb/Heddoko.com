@@ -1,8 +1,5 @@
 <section class="slider-home">
 <div class="container">
-	<div class="videobg">
-		<!-- video loaded by js -->
-	</div>
 	<div class="col-xs-12 col-md-12 col-mg-8 content fitbox">
 		<a
             href="https://youtu.be/sx5TcrVN9dY"
@@ -17,16 +14,10 @@
             <div style="display: block; height: 100px; width: 100px; background: transparent center center no-repeat url(images/icons/icon-play.svg); background-size: contain;"></div>
         </a>
 
-		<h1>The First Smart Compression Suit <br/><span> That Tracks Full-Body Movement In 3D</span></h1>
+		<h1>A wearable motion capture technology with<br>fully integrated sensors that capture your every move in 3D</h1>
 
-		<div class="row">
-		    <div class="col-xs-12 col-md-4 col-md-offset-2" style="margin-bottom: 20px;">
-                <a href="#" class="btn btn-default" id="index_pg_signup_btn">Sign Up To Our Newsletter</a>
-		    </div>
-		    <div class="col-xs-12 col-md-4">
-        		<a href="/quote" class="btn btn-default">Get Your Development Kit Now</a>
-		    </div>
-		</div>
+		<a href="/quote" class="btn btn-default">Request a Quote</a>
+
 	</div>
 
 </div>

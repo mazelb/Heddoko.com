@@ -9,6 +9,28 @@
 		<div id="mc_embed_signup">
 			<form class="form" action="http://heddoko.us8.list-manage.com/subscribe/post-json?u=4752cc710a498b9b75d697500&amp;id=b22a426cab&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate="">
 			<div id="mc_embed_signup_scroll">
+
+                <div class="mc-field-group form-group">
+                    <input
+                        type="text"
+                        class="form-control"
+                        value=""
+                        name="FNAME"
+                        class="form-control"
+                        id="mce-FNAME"
+                        placeholder="First Name">
+                </div>
+
+                <div class="mc-field-group form-group">
+                    <input
+                        type="text"
+                        value=""
+                        name="LNAME"
+                        class="form-control"
+                        id="mce-LNAME"
+                        placeholder="Last Name">
+                </div>
+
 				<div class="mc-field-group form-group">
 					<input
                         type="email"
@@ -20,33 +42,14 @@
 				</div>
 
 				<div class="mc-field-group form-group">
-					<input
-                        type="text"
-                        class="form-control"
-                        value=""
-                        name="FNAME"
-                        class="form-control"
-                        id="mce-FNAME"
-                        placeholder="First Name">
-				</div>
-
-				<div class="mc-field-group form-group">
-					<input
-                        type="text"
-                        value=""
-                        name="LNAME"
-                        class="form-control"
-                        id="mce-LNAME"
-                        placeholder="Last Name">
-				</div>
-
-				<div class="mc-field-group form-group">
 					<select name="MMERGE3" class="required form-control" id="mce-MMERGE3">
 						<option value="" disabled selected>Profession</option>
-						<option value="Athlete">Athlete</option>
-						<option value="Coach">Coach</option>
-						<option value="Health Professional">Health Professional</option>
-						<option value="Game Developer">Game Developer</option>
+                        <option value="Athlete">Athlete</option>
+                        <option value="Coach">Coach</option>
+                        <option value="Health Professional">Health Professional</option>
+                        <option value="Game Developer">Game Developer</option>
+                        <option value="Ergonomics Related (EHS)">Ergonomics Related (EHS)</option>
+                        <option value="Occupational Health Related">Occupational Health Related</option>
 						<option value="Other">Other</option>
 					</select>
 				</div>

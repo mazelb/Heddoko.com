@@ -119,7 +119,7 @@
 <!-- <script src="<?= $dir; ?>js/grid.min.js"></script> -->
 <script src="<?= $dir; ?>js/grid.js"></script>
 <script src="<?= $dir; ?>js/owl-carousel/owl.carousel.min.js"></script>
-
+<script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
 <script src="<?= $dir; ?>js/main.js"></script>
 
 <!-- Pinterest -->
