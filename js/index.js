@@ -686,6 +686,66 @@ $(document).ready(function() {
 SLIDER FORM SUBMIT
 ===================================================================== */
 $(document).ready(function(){
+	$('#mc-embedded-subscribe-form-2').on('submit', function(e) {
+		//disable form fields
+		$('#mc-embedded-subscribe-form-2 input').attr('disabled', 'disabled');
+
+		//validate email
+		if(validateEmail( $('#mce-EMAIL-2').val() )){
+			$('#mc-embedded-subscribe-form-2 .input-group').hide();
+			$('#mc-embedded-subscribe-form-2 .ajax').css('display', 'block').show();
+
+			$.ajax({
+		        type: $('#mc-embedded-subscribe-form-2').attr('method'),
+		        url: $('#mc-embedded-subscribe-form-2').attr('action'),
+		        data: { EMAIL: $('#mce-EMAIL-2').val() },
+		        cache       : false,
+		        dataType    : 'json',
+		        contentType: "application/json; charset=utf-8",
+		        error       : function(err) { alert('Could not connect to the registration server. Please try again later.'); },
+		        success     : function(data) {
+		            if (data.result != 'success') {
+						// Something went wrong, do something to notify the user. maybe alert(data.msg);
+						alert(data.msg);
+						$('#mc-embedded-subscribe-form-2 input').removeAttr('disabled');
+						$('#mc-embedded-subscribe-form-2 .input-group').show();
+						$('#mc-embedded-subscribe-form-2 .ajax').hide();
+
+						// ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'sign_up_failed');
+						// mixpanel.track('sign_up_failed');
+
+		            } else {
+		                // It worked, carry on...
+		                $('#mc-embedded-subscribe-form-2 .ajax').hide();
+		                $('#thankyoudiv-2').html('<h3>Thank You!</h3>');
+		                $('#thankyoudiv-2').show();
+
+						// ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'user_signed_up');
+						// mixpanel.track('user_signed_up');
+		            }
+		        }
+		    });
+		} else {
+			//display message if non-valid email address
+			alert('Please enter a valid email address');
+			$('#mc-embedded-subscribe-form-2 input').removeAttr('disabled');
+			$('#mc-embedded-subscribe-form-2 .input-group').show();
+			$('#mc-embedded-subscribe-form-2 .ajax').hide();
+		}
+
+		e.preventDefault();
+	});
+
+	//signed up button
+	$('#mc-embedded-subscribe-2').click(function() {
+		// ga('send', 'event', 'button', 'click', 'sign_up_button_clicked');
+		// mixpanel.identify($('#mce-EMAIL-2').val());
+		// mixpanel.people.set({
+		//     "$email": $('#mce-EMAIL-2').val()
+		// });
+		// mixpanel.track('sign_up_button_clicked');
+	});
+});
 
 /* =====================================================================
 FANCYBOX LIGHTBOX
