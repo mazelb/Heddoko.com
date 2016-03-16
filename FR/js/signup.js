@@ -107,8 +107,8 @@ $(document).ready(function(){
 						$('.ajax').hide();
 						$('#thankyoudiv').html(data.msg).show();
 
-						ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'sign_up_failed');
-						mixpanel.track('sign_up_failed');
+						// ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'sign_up_failed');
+						// mixpanel.track('sign_up_failed');
 
 		            } else {
 		                // It worked, carry on...
@@ -119,8 +119,8 @@ $(document).ready(function(){
 						$('.ajax').hide();
 						$('#thankyoudiv').html('Merci').show();
 
-						ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'user_signed_up');
-						mixpanel.track('user_signed_up');
+						// ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'user_signed_up');
+						// mixpanel.track('user_signed_up');
 		            }
 		        }
 		    });
@@ -157,11 +157,11 @@ $(document).ready(function(){
 
 	//signed up button
 	$('#mc-embedded-subscribe').click(function() {
-		ga('send', 'event', 'button', 'click', 'sign_up_button_clicked');
+		// ga('send', 'event', 'button', 'click', 'sign_up_button_clicked');
 		mixpanel.identify($('#mce-EMAIL').val());
 		mixpanel.people.set({
 		    "$email": $('#mce-EMAIL').val()
 		});
-		mixpanel.track('sign_up_button_clicked');
+		// mixpanel.track('sign_up_button_clicked');
 	});
 });

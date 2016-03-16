@@ -25,7 +25,7 @@ $(document).ready(function() {
     });
 
     // Send a common pageview to GA from the English or French website.
-    ga('send', 'pageview', '/quotation-form-landed');
+    // ga('send', 'pageview', '/quotation-form-landed');
 
     // Attach submit listener to form.
     $(document.quotation).on('submit', function(event) {
@@ -49,8 +49,11 @@ $(document).ready(function() {
         $('.ajax').show();
 
         // Send virtual pageview & tracking event to GA.
-        ga('send', 'pageview', '/quotation-form-sending');
-        ga('send', 'event', 'RFQ', 'Submitted');
+        // ga('send', 'pageview', '/quotation-form-sending');
+        // ga('send', 'event', 'RFQ', 'Submitted');
+
+        // Track event with Segment.io
+        analytics.track('RFQ Form submitted');
 
         // Format request data and send request.
         $.ajax({
@@ -83,7 +86,7 @@ $(document).ready(function() {
                     console.log(response.responseText);
 
                     // Send virtual pageview to GA.
-                    ga('send', 'pageview', '/quotation-form-sent');
+                    // ga('send', 'pageview', '/quotation-form-sent');
                 }
             }
         });

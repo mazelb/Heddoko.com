@@ -18,13 +18,13 @@ function playVideo(element) {
 MOBILE APP ANIMATION
 ===================================================================== */
 $(document).ready(function() {
-	//do not load video on smaller screens	
+	//do not load video on smaller screens
 	if($(document).width() > 768 && !window.mobileAndTabletcheck()) {
 		var videoFiles = ['/videos/heddoko_app_pair.mp4'];
 
 		var videoContainerWidth = $('#mobileapp .image-animation').width();
 		$('#mobileapp .image-animation .image-videos').css('width', videoContainerWidth*videoFiles.length+'px');
-		
+
 		//for one video
 		var mobilePairVideo = $('<video loop muted></video>')
 		.attr('src', videoFiles[0])
@@ -48,7 +48,7 @@ $(document).ready(function() {
 		}
 	}
 
-	function playNextVideo() {		
+	function playNextVideo() {
 		var videoContainerWidth = $('#mobileapp .image-animation').width();
 		var totalVideos = $('#mobileapp .image-animation .image-videos video').length;
 		var currentVideoPlaying = $('#mobileapp .image-animation .image-videos video').index('#mobileapp .image-animation .image-videos .active');
@@ -66,7 +66,7 @@ $(document).ready(function() {
 			var videoFile = $('<video muted></video>')
 			.on('canplaythrough', function(){
 				videoList.shift();
-				if(videoList.length > 0) { 
+				if(videoList.length > 0) {
 					loadVideos(videoList);
 				} else {
 					playVideos();
@@ -124,198 +124,198 @@ $(document).ready(function() {
 Analytics
 ===================================================================== */
 $(document).ready(function() {
-	//menu buttons	
+	//menu buttons
 	$('#nav_menu_FR').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_FR_clicked');
-		mixpanel.track("nav_menu_FR_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_FR_clicked');
+		// mixpanel.track("nav_menu_FR_clicked");
 	});
 	$('#nav_menu_home').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_home_clicked');
-		mixpanel.track("nav_menu_home_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_home_clicked');
+		// mixpanel.track("nav_menu_home_clicked");
 	});
 	$('#nav_menu_product').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_product_clicked');
-		mixpanel.track("nav_menu_product_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_product_clicked');
+		// mixpanel.track("nav_menu_product_clicked");
 	});
 	$('#nav_menu_prod_howitworks').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_prod_howitworks_clicked');
-		mixpanel.track("nav_menu_prod_howitworks_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_prod_howitworks_clicked');
+		// mixpanel.track("nav_menu_prod_howitworks_clicked");
 	});
 	$('#nav_menu_prod_garment').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_prod_garment_clicked');
-		mixpanel.track("nav_menu_prod_garment_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_prod_garment_clicked');
+		// mixpanel.track("nav_menu_prod_garment_clicked");
 	});
 	$('#nav_menu_prod_mobile').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_prod_mobile_clicked');
-		mixpanel.track("nav_menu_prod_mobile_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_prod_mobile_clicked');
+		// mixpanel.track("nav_menu_prod_mobile_clicked");
 	});
 	$('#nav_menu_prod_web').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_prod_web_clicked');
-		mixpanel.track("nav_menu_prod_web_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_prod_web_clicked');
+		// mixpanel.track("nav_menu_prod_web_clicked");
 	});
 	$('#nav_menu_prod_benefits').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_prod_benefits_clicked');
-		mixpanel.track("nav_menu_prod_benefits_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_prod_benefits_clicked');
+		// mixpanel.track("nav_menu_prod_benefits_clicked");
 	});
 	$('#nav_menu_about').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_about_clicked');
-		mixpanel.track("nav_menu_about_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_about_clicked');
+		// mixpanel.track("nav_menu_about_clicked");
 	});
 	$('#nav_menu_about_mission').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_about_mission_clicked');
-		mixpanel.track("nav_menu_about_mission_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_about_mission_clicked');
+		// mixpanel.track("nav_menu_about_mission_clicked");
 	});
 	$('#nav_menu_about_team').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_about_team_clicked');
-		mixpanel.track("nav_menu_about_team_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_about_team_clicked');
+		// mixpanel.track("nav_menu_about_team_clicked");
 	});
 	$('#nav_menu_about_join').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_about_join_clicked');
-		mixpanel.track("nav_menu_about_join_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_about_join_clicked');
+		// mixpanel.track("nav_menu_about_join_clicked");
 	});
 	$('#nav_menu_about_contact').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_about_contact_clicked');
-		mixpanel.track("nav_menu_about_contact_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_about_contact_clicked');
+		// mixpanel.track("nav_menu_about_contact_clicked");
 	});
 	$('#nav_menu_press').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_press_clicked');
-		mixpanel.track("nav_menu_press_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_press_clicked');
+		// mixpanel.track("nav_menu_press_clicked");
 	});
 	$('#nav_menu_press_news').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_press_news_clicked');
-		mixpanel.track("nav_menu_press_news_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_press_news_clicked');
+		// mixpanel.track("nav_menu_press_news_clicked");
 	});
 	$('#nav_menu_press_mediakit').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_press_mediakit_clicked');
-		mixpanel.track("nav_menu_press_mediakit_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_press_mediakit_clicked');
+		// mixpanel.track("nav_menu_press_mediakit_clicked");
 	});
 	$('#nav_menu_faq').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_faq_clicked');
-		mixpanel.track("nav_menu_faq_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_faq_clicked');
+		// mixpanel.track("nav_menu_faq_clicked");
 	});
 	$('#nav_menu_blog').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_blog_clicked');
-		mixpanel.track("nav_menu_blog_clicked");
+		// ga('send', 'event', 'button', 'click', 'nav_menu_blog_clicked');
+		// mixpanel.track("nav_menu_blog_clicked");
 	});
 	$('#nav_menu_signup').click(function() {
-		ga('send', 'event', 'button', 'click', 'nav_menu_signup_clicked');
-		mixpanel.track("nav_menu_signup_clicked");
-	});	
+		// ga('send', 'event', 'button', 'click', 'nav_menu_signup_clicked');
+		// mixpanel.track("nav_menu_signup_clicked");
+	});
 
 	//Footer buttons
 	$('#footer_social_twitter').click(function() {
-		ga('send', 'social', 'twitter', 'follow', 'footer_social_twitter');
-		mixpanel.track("footer_social_twitter");
+		// ga('send', 'social', 'twitter', 'follow', 'footer_social_twitter');
+		// mixpanel.track("footer_social_twitter");
 	});
 	$('#footer_social_facebook').click(function() {
-		ga('send', 'social', 'facebook', 'like', 'footer_social_facebook');
-		mixpanel.track("footer_social_facebook");
+		// ga('send', 'social', 'facebook', 'like', 'footer_social_facebook');
+		// mixpanel.track("footer_social_facebook");
 	});
 	$('#footer_social_linkedin').click(function() {
-		ga('send', 'social', 'button', 'follow', 'footer_social_linkedin');
-		mixpanel.track("footer_social_linkedin");
+		// ga('send', 'social', 'button', 'follow', 'footer_social_linkedin');
+		// mixpanel.track("footer_social_linkedin");
 	});
 	$('#footer_social_gplus').click(function() {
-		ga('send', 'social', 'button', 'like', 'footer_social_gplus');
-		mixpanel.track("footer_social_gplus");
+		// ga('send', 'social', 'button', 'like', 'footer_social_gplus');
+		// mixpanel.track("footer_social_gplus");
 	});
 	$('#footer_social_instagram').click(function() {
-		ga('send', 'social', 'button', 'like', 'footer_social_gplus');
-		mixpanel.track("footer_social_gplus");
+		// ga('send', 'social', 'button', 'like', 'footer_social_gplus');
+		// mixpanel.track("footer_social_gplus");
 	});
 	$('#footer_social_pinterest').click(function() {
-		ga('send', 'social', 'button', 'like', 'footer_social_instagram');
-		mixpanel.track("footer_social_instagram");
+		// ga('send', 'social', 'button', 'like', 'footer_social_instagram');
+		// mixpanel.track("footer_social_instagram");
 	});
 	$('#footer_social_vimeo').click(function() {
-		ga('send', 'social', 'button', 'like', 'footer_social_vimeo');
-		mixpanel.track("footer_social_vimeo");
+		// ga('send', 'social', 'button', 'like', 'footer_social_vimeo');
+		// mixpanel.track("footer_social_vimeo");
 	});
 	$('#footer_menu_home').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_home_clicked');
-		mixpanel.track("footer_menu_home_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_home_clicked');
+		// mixpanel.track("footer_menu_home_clicked");
 	});
 	$('#footer_menu_product').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_product_clicked');
-		mixpanel.track("footer_menu_product_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_product_clicked');
+		// mixpanel.track("footer_menu_product_clicked");
 	});
 	$('#footer_menu_prod_howitworks').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_prod_howitworks_clicked');
-		mixpanel.track("footer_menu_prod_howitworks_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_prod_howitworks_clicked');
+		// mixpanel.track("footer_menu_prod_howitworks_clicked");
 	});
 	$('#footer_menu_prod_garment').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_prod_garment_clicked');
-		mixpanel.track("footer_menu_prod_garment_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_prod_garment_clicked');
+		// mixpanel.track("footer_menu_prod_garment_clicked");
 	});
 	$('#footer_menu_prod_mobile').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_prod_mobile_clicked');
-		mixpanel.track("footer_menu_prod_mobile_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_prod_mobile_clicked');
+		// mixpanel.track("footer_menu_prod_mobile_clicked");
 	});
 	$('#footer_menu_prod_web').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_prod_web_clicked');
-		mixpanel.track("footer_menu_prod_web_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_prod_web_clicked');
+		// mixpanel.track("footer_menu_prod_web_clicked");
 	});
 	$('#footer_menu_prod_benefits').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_prod_benefits_clicked');
-		mixpanel.track("footer_menu_prod_benefits_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_prod_benefits_clicked');
+		// mixpanel.track("footer_menu_prod_benefits_clicked");
 	});
 	$('#footer_menu_about').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_about_clicked');
-		mixpanel.track("footer_menu_about_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_about_clicked');
+		// mixpanel.track("footer_menu_about_clicked");
 	});
 	$('#footer_menu_about_mission').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_about_mission_clicked');
-		mixpanel.track("footer_menu_about_mission_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_about_mission_clicked');
+		// mixpanel.track("footer_menu_about_mission_clicked");
 	});
 	$('#footer_menu_about_team').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_about_team_clicked');
-		mixpanel.track("footer_menu_about_team_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_about_team_clicked');
+		// mixpanel.track("footer_menu_about_team_clicked");
 	});
 	$('#footer_menu_about_join').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_about_join_clicked');
-		mixpanel.track("footer_menu_about_join_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_about_join_clicked');
+		// mixpanel.track("footer_menu_about_join_clicked");
 	});
 	$('#footer_menu_about_contact').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_about_contact_clicked');
-		mixpanel.track("footer_menu_about_contact_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_about_contact_clicked');
+		// mixpanel.track("footer_menu_about_contact_clicked");
 	});
 	$('#footer_menu_press').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_press_clicked');
-		mixpanel.track("footer_menu_press_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_press_clicked');
+		// mixpanel.track("footer_menu_press_clicked");
 	});
 	$('#footer_menu_press_news').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_press_news_clicked');
-		mixpanel.track("footer_menu_press_news_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_press_news_clicked');
+		// mixpanel.track("footer_menu_press_news_clicked");
 	});
 	$('#footer_menu_press_mediakit').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_press_mediakit_clicked');
-		mixpanel.track("footer_menu_press_mediakit_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_press_mediakit_clicked');
+		// mixpanel.track("footer_menu_press_mediakit_clicked");
 	});
 	$('#footer_menu_faq').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_faq_clicked');
-		mixpanel.track("footer_menu_faq_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_faq_clicked');
+		// mixpanel.track("footer_menu_faq_clicked");
 	});
 	$('#footer_menu_blog').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_blog_clicked');
-		mixpanel.track("footer_menu_blog_clicked");
+		// ga('send', 'event', 'button', 'click', 'footer_menu_blog_clicked');
+		// mixpanel.track("footer_menu_blog_clicked");
 	});
 	$('#footer_menu_signup').click(function() {
-		ga('send', 'event', 'button', 'click', 'footer_menu_signup_clicked');
-		mixpanel.track("footer_menu_signup_clicked");
-	});	
+		// ga('send', 'event', 'button', 'click', 'footer_menu_signup_clicked');
+		// mixpanel.track("footer_menu_signup_clicked");
+	});
 
 	//inpage buttons
 	$('#product_pg_benefits_athlete_btn').click(function() {
-		ga('send', 'event', 'button', 'click', 'product_pg_benefits_athlete_btn_clicked');
-		mixpanel.track("product_pg_benefits_athlete_btn_clicked");
+		// ga('send', 'event', 'button', 'click', 'product_pg_benefits_athlete_btn_clicked');
+		// mixpanel.track("product_pg_benefits_athlete_btn_clicked");
 	});
 	$('#product_pg_benefits_coaches_btn').click(function() {
-		ga('send', 'event', 'button', 'click', 'product_pg_benefits_coaches_btn_clicked');
-		mixpanel.track("product_pg_benefits_coaches_btn_clicked");
+		// ga('send', 'event', 'button', 'click', 'product_pg_benefits_coaches_btn_clicked');
+		// mixpanel.track("product_pg_benefits_coaches_btn_clicked");
 	});
 	$('#product_pg_brochure_btn').click(function() {
-		ga('send', 'event', 'button', 'click', 'product_pg_brochure_btn_clicked');
-		mixpanel.track("product_pg_brochure_btn_clicked");
+		// ga('send', 'event', 'button', 'click', 'product_pg_brochure_btn_clicked');
+		// mixpanel.track("product_pg_brochure_btn_clicked");
 	});
 });
 
@@ -323,7 +323,7 @@ $(document).ready(function() {
 MOBILE VIDEO
 ===================================================================== */
 // $(document).ready(function(){
-// 	//do not load video on smaller screens	
+// 	//do not load video on smaller screens
 // 	if($(document).width() > 768 && !window.mobileAndTabletcheck()) {
 // 		var videoFile = $('<video loop muted></video>')
 // 		.on('canplaythrough', function(){
