@@ -31,8 +31,6 @@
 
 <?php include('includes/index/learnproduct.php'); ?>
 
-<?php include('includes/index/awards.php'); ?>
-
 <?php include('includes/index/partners.php'); ?>
 
 <?php include('includes/index/subscribe.php'); ?>
