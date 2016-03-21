@@ -1,12 +1,3 @@
-<!-- Top slider wrap -->
-<div id="intro">
-	<div class="container">
-		<div class="col-md-12">
-		</div>
-	</div>
-</div>
-<!-- Top slider wrap -->
-
 <!-- Main content -->
 <div class="main-content">
 	<div class="container">
