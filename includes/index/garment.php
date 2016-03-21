@@ -4,11 +4,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-6 content">
-				<h2 data-animated="0">Smart Garment <span></span></h2>
+				<h2 data-animated="0">Smart Garment &amp; App <span></span></h2>
 
 				<p itemprop="description" data-animated="0">
-                    Heddoko is a smart compression suit that uses textile embedded sensors to track
-                    your body movement and give you live 3D coaching.
+                    Heddoko is a smart compression suit that uses textile
+                    embedded sensors to track your body movement and gives you real time 3D
+                    feedback to help reduce your risk of injury.
                 </p>
 
 				<div class="col-xs-12">
@@ -18,21 +19,21 @@
                                 class="has-icon-img"
                                 style="background-image: url(images/icons/icon-sensors.svg)"
                                 title="Integrated sensors"></div>
-                            <p>Integrated sensors</p>
+                            <h4>Integrated<br> sensors</h4>
                         </div>
                         <div class="col-xs-12 col-sm-4" data-animated="0">
                             <div
                                 class="has-icon-img"
                                 style="background-image: url(images/icons/icon-body.svg)"
                                 title="Full-body data capture"></div>
-                            <p>Full-body data capture</p>
+                            <h4>Full-body<br> data capture</h4>
                         </div>
                         <div class="col-xs-12 col-sm-4" data-animated="0">
                             <div
                                 class="has-icon-img"
-                                style="background-image: url(images/icons/icon-resist.svg)"
+                                style="background-image: url(images/icons/icon-light-bluetooth.svg)"
                                 title="Resists tough training"></div>
-                            <p>Resists tough training</p>
+                            <h4>Wireless and<br> camera-less</h4>
                         </div>
 					</div>
 				</div>
@@ -45,10 +46,11 @@
 			</div>
 			<div class="col-xs-12 col-md-6 image">
                 <?= Heddoko::pin([
-                    'media' => 'http://www.heddoko.com/images/index/garment.png',
+                    'media' => 'http://www.heddoko.com/images/index/garment+app.png',
                     'description' => 'Heddoko smart garment'
                 ]) ?>
-				<img itemprop="image" src="images/index/garment.png" data-animated="4" alt="Garment">
+                <!-- <img itemprop="image" src="images/index/garment+app.png" data-animated="4" alt="Garment" class="garment-app"> -->
+				<img itemprop="image" src="images/index/garment.png" data-animated="4" alt="Garment" class="">
 			</div>
 		</div>
 	</div>

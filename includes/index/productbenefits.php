@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right content">
-				<h2 data-animated="0">Benefits <span></span></h2>
+				<h2 data-animated="0">How Our Customers Use It <span></span></h2>
 				<p data-animated="0">With its unique 3D movement monitoring and precise and personalized analysis, Heddoko is a game changer - a key to unlock greatness for dedicated athletes of every level.</p>
 
 				<div class="col-xs-12">
