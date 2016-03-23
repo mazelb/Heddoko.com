@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 content">
-                <h2 data-animated="0">Smart Garment &amp; App (Redesign)<span></span></h2>
+                <h2 data-animated="0">Smart Garment &amp; App<span></span></h2>
                 <p>Our system brings together a featherweight compression suit that fits like a second skin, small scale sensors that track your movement, and an application that models those movements real‐time in 3D and provides actionable insights.</p>
                 <p prop="about" data-animated="0">Heddoko empowers perfection in human movement, and provides real‐time 3D corrective feedback.</p>
                 <div class="row">

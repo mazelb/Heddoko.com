@@ -23,7 +23,7 @@
 
 <?php include('includes/index/seeitlive.php'); ?>
 
-<?php // include('includes/index/productbenefits.php'); ?>
+<?php include('includes/index/productbenefits.php'); ?>
 
 <?php // include('includes/index/learnproduct.php'); ?>
 

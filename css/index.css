@@ -433,7 +433,7 @@ PRODUCT SPECS
 	#productspecs .container .row > .content img, #productspecs .container .row > .content .has-icon-img {
 		width: 60%;
         padding-top: 60%;
-	}
+	}productbenefits
 	#productspecs .container .row > .image img {
 		width: 60%;
 	}
@@ -676,65 +676,6 @@ PRODUCT BENEFITS
 	margin-bottom: 20px;
 }
 
-#productbenefits .container .row > .image img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	height: auto
-}
-
-/* ===== MEDIA QUERIES ===== */
-@media (min-width: 1px) and (max-width: 767px) {
-	#productbenefits .container .row > .content {
-		padding-top: 40px;
-	}
-
-	#productbenefits .container .row > .content img, #productbenefits .container .row > .content .has-icon-img {
-		width: 40%;
-        padding-top: 40%;
-	}
-}
-
-@media (min-width: 480px) and (max-width: 767px) {
-	#productbenefits .container .row > .content .col-xs-12 .col-xs-12 {
-		width: 33.33%;
-	}
-
-	#productbenefits .container .row > .content .buttons.col-xs-12 .col-xs-12 {
-		width: 100%;
-	}
-
-	#productbenefits .container .row > .content img, #productbenefits .container .row > .content .has-icon-img {
-		width: 60%;
-        padding-top: 60%;
-	}
-	#productbenefits .container .row > .image img {
-		width: 60%;
-	}
-}
-
-
-@media (min-width: 768px) and (max-width: 991px) {
-	#productbenefits .container .row > .content {
-		padding-top: 20px;
-	}
-}
-
-@media (min-width: 1px) and (max-width: 1199px) {
-	#productbenefits .container .row > .content .btn {
-		display: block;
-		width: 100%;
-		padding-left: 0;
-		padding-right: 0;
-	}
-}
-
-@media (min-width: 1200px) {
-	#productbenefits .container .row > .content {
-		padding-top: 120px;
-	}
-}
 
 /* =====================================================================
 LEARN PRODUCT
