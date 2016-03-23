@@ -28,7 +28,7 @@
                                 class="has-icon-img"
                                 style="background-image: url(../images/icons/icon-dark-tough.svg)"
                                 title="Resists tough sports training"></div>
-                            <p>Resists tough training</p>
+                            <p>Durable</p>
                         </div>
 					</div>
 				</div>

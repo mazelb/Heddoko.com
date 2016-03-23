@@ -30,7 +30,7 @@
 						<span class="vertical"></span>
 					</div>
 					<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-						<h5>Pair with Mobile/Web App</h5>
+						<h5>Pair with Application</h5>
 					</div>
 				</div>
 
@@ -44,7 +44,7 @@
 						<span class="vertical"></span>
 					</div>
 					<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-						<h5>Capture movement in 3D &amp; receive live coaching feedback</h5>
+						<h5>Capture and analyze movement live in 3D</h5>
 					</div>
 				</div>
 
@@ -58,7 +58,7 @@
 						<span class="vertical"></span>
 					</div>
 					<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-						<h5>Make immediate adjustments to improve movement on the spot and review progress over time</h5>
+						<h5>Make immediate adjustments to reduce risk of injury</h5>
 					</div>
 				</div>
 			</div>
