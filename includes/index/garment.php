@@ -7,9 +7,7 @@
 				<h2 data-animated="0">Smart Garment &amp; App <span></span></h2>
 
 				<p itemprop="description" data-animated="0">
-                    Heddoko is a smart compression suit that uses textile
-                    embedded sensors to track your body movement and gives you real time 3D
-                    feedback to help reduce your risk of injury.
+                    Our system brings together a featherweight compression suit that fits like a second skin, small scale sensors that track your movement, and an application that models those movements real‐time in 3D and provides actionable insights.
                 </p>
 
 				<div class="col-xs-12">

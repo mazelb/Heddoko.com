@@ -7,7 +7,7 @@ require realpath(__DIR__) .'/../../php/quote.php';
             <div class="row">
                 <div class="col-xs-12 col-md-12 col-mg-8 col-lg-8 col-mg-offset-2 col-lg-offset-2">
                     <h1>Request A Quote</h1>
-                    <p><em>Please fill out this form to request a quote for your development kit.<br>A member of our sales team will contact you shortly.</em></p>
+                    <p>Interested in ordering a Development Kit?<br><br> Each Kit ships within 4‐6 weeks and contains a Quick Start Guide, smart compression suit, battery pack, motion‐ tracking sensors, and USB charger and cable. Please fill out the form below to get a quote – our sales team will contact you shortly.</p>
                     <form class="form" name="quotation" action="/php/quote.php" method="post">
                         <!-- First name -->
                         <div class="form-group">
@@ -16,6 +16,10 @@ require realpath(__DIR__) .'/../../php/quote.php';
                         <!-- Last name -->
                         <div class="form-group">
                             <input type="text" class="form-control" name="last_name" placeholder="Last Name" required>
+                        </div>
+                        <!-- Email -->
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" value="" placeholder="Email address" required>
                         </div>
                         <!-- Organization -->
                         <div class="form-group">
@@ -39,10 +43,6 @@ require realpath(__DIR__) .'/../../php/quote.php';
                                 <option value="5001-10000">5001-10000</option>
                                 <option value="10001+">10001+</option>
                             </select>
-                        </div>
-                        <!-- Email -->
-                        <div class="form-group">
-                            <input type="email" class="form-control" name="email" value="" placeholder="Email address" required>
                         </div>
                         <!-- Phone number -->
                         <div class="form-group">

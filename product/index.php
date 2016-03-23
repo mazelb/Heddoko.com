@@ -23,21 +23,21 @@
 
 <?php include('../includes/product/howitworks.php'); ?>
 
-<?php include('../includes/product/better.php'); ?>
+<?php // include('../includes/product/better.php'); ?>
 
 <?php include('../includes/product/garment.php'); ?>
 
-<?php include('../includes/product/mobile.php'); ?>
+<?php // include('../includes/product/mobile.php'); ?>
 
 <?php include('../includes/product/web.php'); ?>
 
-<?php include('../includes/product/benefits.php'); ?>
+<?php // include('../includes/product/benefits.php'); ?>
 
-<?php include('../includes/product/benefitsathletes.php'); ?>
+<?php include('../includes/product/whatwemeasure.php'); ?>
 
 <?php include('../includes/product/divider.php'); ?>
 
-<?php include('../includes/product/benefitscoaches.php'); ?>
+<?php // include('../includes/product/benefitscoaches.php'); ?>
 
 <?php include('../includes/product/brochure.php'); ?>
 
