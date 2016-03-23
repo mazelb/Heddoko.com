@@ -8,8 +8,7 @@
                 <meta itemprop="uploadDate" content="2015-02-25" />
                 <div style="display: block; height: 100px; width: 100px; background: transparent center center no-repeat url(images/icons/icon-play.svg); background-size: contain;"></div>
             </a>
-            <h1>A wearable motion capture technology<br>
-		<small>fully integrated sensors that capture your every move in 3D</small></h1>
+            <h1>Wearable motion capture technology <span>Fully integrated sensors that capture your every move in 3D.</span></h1>
             <a href="/quote" class="btn btn-default">Request a Quote</a>
         </div>
     </div>

@@ -63,16 +63,16 @@ switch($fileName) {
 					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 					<li class="<?php echo $links[1]; ?>"><a id="nav_menu_product" href="/product">Product <span></span></a></li>
 					<li class="<?php echo $links[2]; ?>"><a id="nav_menu_about" href="/about" role="button">About Us <span></span></a>
-                    <li class="">
-                        <a id="nav_menu_quote" class="btn btn-sm" href="/quote">
-                            Request a Quote <span></span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a id="nav_menu_signup" href="/signup">
-                            Sign Up <span></span>
-                        </a>
-                    </li>
+          <li class="">
+              <a id="nav_menu_signup" href="/signup">
+                  Sign Up <span></span>
+              </a>
+          </li>
+           <li class="">
+              <a id="nav_menu_quote" class="btn btn-sm" href="/quote">
+                  Request a Quote 
+              </a>
+          </li>
 					<li><a id="nav_menu_FR" href="/FR/"><img src="/images/flag_france_64.png" alt="Switch language to French" class="flag"> <span></span></a></li>
 				</ul>
 			</div>
