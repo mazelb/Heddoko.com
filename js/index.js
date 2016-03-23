@@ -493,7 +493,7 @@ $(document).ready(function() {
 	/**
 	* Init
 	*/
-	resetHeight();
+	// resetHeight();
 
 });
 

@@ -125,14 +125,85 @@ form {
 }
 
 
+#garment {
+    h2 {
+        // color: #fff;
+        font-size: 26px;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        span {
+            background: #fff;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30px;
+            height: 5px;
+            margin-top: 30px;
+        }
+    }
+}
 
 
+#seeitlive {
+    background: transparent url(/images/index/video.png);
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+    position: relative;
 
+    h1, p {
+        color: #FFF;
+        z-index: 101;
+        position: relative;
+        text-align: center;
+        margin-bottom: 40px;
+    }
 
+    p {
+        position: relative;
+        top: 140px;
+    }
 
+    .darken {
+        background: #000;
+        opacity: 0.35;
+        height: 400px;
+        width: 100%;
+        z-index: 100;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 
+    .play-button {
+        background: transparent center center no-repeat url(../images/icons/icon-play.svg);
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        z-index: 200;
+        color: #FFF;
+        display: block;
+        opacity: 0.5;
+        left: 50%;
+        top: 50%;
+        margin: -50px 0 0 -50px;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
 
-
+.button-container {
+    margin:0 auto;
+    width: 100%;
+    text-align: center;
+    .btn {
+        text-align: center;
+    }
+}
 
 
 

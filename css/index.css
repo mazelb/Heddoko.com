@@ -355,7 +355,7 @@ PRODUCT SPECS
 }
 
 #productspecs .container .row > .content {
-	padding-top: 100px;
+	// padding-top: 100px;
 }
 
 #productspecs .container .row > .content h2 {
@@ -452,13 +452,13 @@ PRODUCT SPECS
 
 @media (min-width: 1200px) {
 	#productspecs .container .row > .content {
-		padding-top: 120px;
+		// padding-top: 120px;
 	}
 }
 
 @media (min-width: 768px) {
 	#productspecs {
-		height: 650px;
+		// height: 650px;
 	}
 }
 
@@ -466,9 +466,9 @@ PRODUCT SPECS
 SEE IT LIVE
 ===================================================================== */
 #seeitlive {
-	background: #343c44;
-	overflow: hidden;
-	padding: 50px 0 0 0;
+	// background: #343c44;
+	// overflow: hidden;
+	// padding: 50px 0 0 0;
 }
 
 #seeitlive .container .row > .content {
