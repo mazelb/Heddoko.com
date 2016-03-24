@@ -70,7 +70,8 @@ CLASSES
 ===================================================================== */
 .btn {
 	border-radius: 0px;
-	font-size: 18px;
+	font-size: 16px;
+	padding: 12px 30px;
     -webkit-transition: all 250ms ease-out 0s;
     -moz-transition: all 250ms ease-out 0s;
     -o-transition: all 250ms ease-out 0s;
@@ -78,7 +79,7 @@ CLASSES
 }
 
 .btn-default {
-	background: #3bd6b2;
+	background: #36bf9f;
 	border: 1px solid transparent;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -87,7 +88,7 @@ CLASSES
 .btn-default:hover {
 	background: #3bd6b2;
 	border: 1px solid transparent;
-	color: #49434d;
+	color: #46474d;
 }
 
 .form-control {
