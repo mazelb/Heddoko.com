@@ -285,7 +285,7 @@ header .fb-like {
 
 @media (min-width: 768px) {
 	header {
-		padding-bottom: 10px;
+		padding-bottom: 30px;
 	}
 
 	header .navbar-top .container > .navbar-header .navbar-brand {
