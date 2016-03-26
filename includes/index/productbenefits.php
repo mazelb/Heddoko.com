@@ -32,7 +32,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 image">
-				<img src="images/index/customers_use_us.jpg" data-animated="0" alt="Web app" />
+				<!--<img src="images/index/customers_use_us.jpg" data-animated="0" alt="Web app" />-->
 			</div>
 		</div>
 	</div>
