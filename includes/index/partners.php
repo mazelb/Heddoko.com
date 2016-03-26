@@ -2,9 +2,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-                <h2>
+                <h2 class="accent-top">
                     A big thanks to our partners
-                    <span></span>
                 </h2>
             </div>
         </div>

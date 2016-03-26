@@ -1,15 +1,20 @@
 <section class="slider-home">
     <div class="container">
-        <div class="col-xs-12 col-md-12 col-mg-8 content fitbox">
+        <div class="col-xs-12 col-md-12 content fitbox">
             <a href="https://youtu.be/sx5TcrVN9dY" class="hidden-lg play fancybox-media" itemscope itemtype="http://schema.org/VideoObject">
                 <meta itemprop="name" content="Heddoko Teaser" />
                 <meta itemprop="description" content="Heddoko Teaser" />
                 <meta itemprop="thumbnailUrl" content="http://heddoko.com/images/apple-icon-precomposed.png" />
                 <meta itemprop="uploadDate" content="2015-02-25" />
-                <div style="display: block; height: 100px; width: 100px; background: transparent center center no-repeat url(images/icons/icon-play.svg); background-size: contain;"></div>
+                <div style="display: block; height: 100px; width: 100px; background: transparent center center no-repeat url(images/svg/btn-play.svg); background-size: contain;"></div>
             </a>
             <h1>Wearable motion capture technology <span>With fully integrated sensors that capture your every move in 3D.</span></h1>
             <a href="/quote" class="btn btn-default-outline">Request a Quote</a>
+        </div>
+    </div>
+    <div class="container scroll-container">
+        <div class="col-md-12">
+            <a href="#" class="scroll-page"></a>
         </div>
     </div>
 </section>

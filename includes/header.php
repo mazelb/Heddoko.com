@@ -65,7 +65,7 @@ switch($fileName) {
 					<li class="<?php echo $links[2]; ?>"><a id="nav_menu_about" href="/about" role="button">About Us <span></span></a></li>
           <li class=""><a id="nav_menu_signup" href="/signup">Sign Up <span></span></a></li>
           <li class=""><a id="nav_menu_quote" class="btn btn-sm" href="/quote">Request a Quote</a></li>
-					<li class="toggle-language"><a id="nav_menu_FR" href="/FR/" role="button">FR <span></span></a></li>
+					<li class="toggle-language"><a id="nav_menu_FR" href="/FR/" role="button">FR</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->

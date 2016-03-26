@@ -10,6 +10,29 @@
     }
 }
 
+.scroll-container {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.scroll-page {
+    width: 60px;
+    height: 60px;
+    display: block;
+    opacity: .6;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,.25);
+    background: url(../images/svg/btn-arrow.svg) no-repeat center center;
+    background-size: 35%;
+
+    &:hover { 
+        opacity: 1;
+        border-color: rgba(255,255,255,.5); 
+    }
+}
+
 
 // Style Select2 Dropdown with Bootstrap overrides
 form {
@@ -78,6 +101,8 @@ form {
     }
 }
 
+
+//-------------------------------------- 
 // Style home slider / hero
 .template-index {
     .slider-home {
@@ -113,12 +138,14 @@ form {
 }
 
 
-// Style the quote form.
+//-------------------------------------- 
+// Style the quote form
 .quotation-form {
     .company-size {
         padding: 10px;
     }
 }
+
 
 #featured {
     a {
@@ -172,9 +199,30 @@ form {
 #productbenefits {
     // background: #39373a;
 }
+
+
+//-------------------------------------- 
+// Index Partners
 #partners {
     background: #39373a;
+    padding-top: 120px !important;
+
+    .container .row > div h2.accent-top {
+        font-size: 32px;
+        font-weight: 600;
+        position: relative;
+
+        &:before {
+            position: absolute;
+            content: '';
+            border-top: 5px solid #36bf9f;
+            width: 40px;
+            top: -32px;
+            left:  ~"calc(50% - 20px)";
+        }
+    }
 }
+
 .readable-column {
     p {
         font-size: 16px;
@@ -225,30 +273,37 @@ form {
 }
 
 
+//-------------------------------------- 
+// Video Section
 #seeitlive {
-    background: transparent url(/images/index/video.png);
+    background: transparent url(/images/index/bg_home_2.jpg);
     background-size: cover;
     background-position: top center;
-    height: 400px;
-    position: relative;
-
+    height: 520px;
+    text-align: center;
+    
     h1, p {
-        color: #FFF;
-        z-index: 101;
         position: relative;
         text-align: center;
-        margin-bottom: 40px;
+    }
+    
+    h1 {
+        color: #fff;
+        font-size: 48px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 60px;
     }
 
     p {
-        position: relative;
-        top: 140px;
+        font-size: 16px;
+        margin-top: 60px;
     }
 
     .darken {
-        background: #000;
-        opacity: 0.35;
-        height: 400px;
+        //background: rgba(0,0,0,.35);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25));
+        height: 520px;
         width: 100%;
         z-index: 100;
         position: absolute;
@@ -257,23 +312,160 @@ form {
     }
 
     .play-button {
-        background: transparent center center no-repeat url(../images/icons/icon-play.svg);
-        height: 100px;
-        width: 100px;
-        position: absolute;
-        z-index: 200;
-        color: #FFF;
-        display: block;
-        opacity: 0.5;
-        left: 50%;
-        top: 50%;
-        margin: -50px 0 0 -50px;
-        &:hover {
-            opacity: 0.7;
+        background-image: url(../images/svg/btn-play-arrow-only.svg);
+        background-size: 32px 22px;
+        background-position: 22px 50%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin: 0 auto;
+        border-width: 3px;
+        line-height: 74px;
+        font-size: 20px;
+        padding: 0 30px 0 60px;
+        text-transform: uppercase;
+    }
+}
+
+
+//-------------------------------------- 
+// Customer Uses / Product Benefits
+.template-index {
+    #productbenefits {
+        .container .row > .content {
+            h2 {
+                color: #333;
+                font-size: 40px;
+                position: relative;
+                //margin-left: 35px;
+                text-align: left;
+
+                &:before {
+                    position: absolute;
+                    content: '';
+                    border-left: 5px solid #36bf9f;
+                    top: 6px;
+                    left: -40px;
+                    height: 85%;
+                }
+            }
+
+            p { font-size: 16px; line-height: 28px; margin-bottom: 40px; text-align: left; }
         }
     }
 }
 
+
+//-------------------------------------- 
+// Featured In
+#featured {
+    padding-top: 120px;
+    
+    h2 { 
+        font-size: 48px; 
+        position: relative;
+        margin: 0 auto;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+
+        &:before {
+            position: absolute;
+            content: '';
+            border-top: 5px solid #36bf9f;
+            width: 40px;
+            top: -32px;
+            left:  ~"calc(50% - 20px)";
+        }
+    }
+}
+
+//-------------------------------------- 
+// Smart Garment + App
+.specthis {
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+
+    h1 {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 48px;
+
+        span {
+            color: #36bf9f;
+        }
+    }
+
+    p { font-size: 16px; line-height: 28px; margin-bottom: 20px; }
+}
+
+.specgarment {
+    background-image: url(../images/index/bg_home_2.jpg);
+    background-position: left center;
+    
+    h1 { 
+        font-size: 40px; 
+        position: relative;
+        margin-left: 35px;
+
+        &:before {
+            position: absolute;
+            content: '';
+            border-top: 5px solid #36bf9f;
+            top: -28px;
+            left: 0;
+            width: 40px;
+        }
+    }
+    p { margin-left: 35px; }
+
+}
+
+.specapp {
+    background-image: url(../images/index/bg_home_2.jpg);
+    background-position: right center;
+
+    h1 {
+        margin-right: 35px;
+        margin-bottom: 35px;
+    }
+}
+
+.feature-group {
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    background-color: #fafafc;
+
+    #productspecs .has-icon-img {
+        border: 1px solid rgba(0,0,0,.1);
+        background-size: 100%;
+        height: 100px !important;
+        width: 100px !important;
+        background: transparent center center no-repeat;
+        display: block;
+        margin: 0 auto 15px;
+    }
+}
+
+.template-index { 
+    #productspecs {
+        padding: 0;
+
+        .container .row > .content .has-icon-img,
+        .has-icon-img {
+            border: 1px solid rgba(0,0,0,.1);
+            background-size: 100%;
+            height: 100px !important;
+            width: 100px !important;
+            background: transparent center center no-repeat;
+            display: block;
+            margin: 0 auto 15px;
+        }
+    }
+}
+
+
+//-------------------------------------- 
+// ???
 .button-container {
     margin:0 auto;
     width: 100%;
@@ -302,6 +494,3 @@ form {
     text-align: center;
     margin-bottom: 80px;
 }
-
-
-
