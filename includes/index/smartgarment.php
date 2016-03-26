@@ -8,6 +8,7 @@
                     <h1>Smart Garment &amp; App</h1>
                     <p>Our system brings together a featherweight compression suit that fits like a second skin, small scale sensors that track your movement, and an application that models those movements real‐time in 3D and provides actionable insights.</p>
                     <p prop="about" data-animated="0">Heddoko empowers perfection in human movement, and provides real‐time 3D corrective feedback.</p>
+                    <a itemprop="url" href="/product/#mobile" class="btn btn-default" id="index_pg_mobile_learnmore_btn">Learn more</a>
                 </div>
         </div>
     </section>
