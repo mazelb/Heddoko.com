@@ -199,7 +199,7 @@
                     <div class="item col-md-4" data-animated="0">
                         <div class="col-md-12">
                             <div class="team-staff">
-                                <img src="//placehold.it/500x500" class="img-responsive" alt="" />
+                                <img src="/images/about/team/team_hriday.jpg" class="img-responsive" alt="" />
                                 <div class="team-overlay">
                                     <div class="social">
                                         <ul data-animated="0">
