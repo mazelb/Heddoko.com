@@ -14,7 +14,7 @@
     </div>
     <div class="container scroll-container">
         <div class="col-md-12">
-            <a href="#" class="scroll-page"></a>
+            <a href="#productspecs" class="scroll-page"></a>
         </div>
     </div>
 </section>
