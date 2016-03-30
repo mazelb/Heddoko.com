@@ -13,29 +13,29 @@
                     <div class="col-xs-12">
                         <div class="row">
                             <div class="col-xs-12 col-sm-4" data-animated="0">
-                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-white-profile.svg)" title="Manage injuries"></div>
+                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-profile-basic.svg)" title="Manage injuries"></div>
                                 <p>Injury profiles</p>
                             </div>
                             <div class="col-xs-12 col-sm-4" data-animated="0">
-                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-white-rec.svg)" title="Movement recording"></div>
+                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-rec-basic.svg)" title="Movement recording"></div>
                                 <p>Movement recording</p>
                             </div>
                             <div class="col-xs-12 col-sm-4" data-animated="0">
-                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-white-feedback.svg)" title="Real-time kinematics"></div>
+                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-feedback-basic.svg)" title="Real-time kinematics"></div>
                                 <p>Live 3D feedback</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12 col-sm-4" data-animated="0">
-                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-white-precision.svg)" title="Movement precision"></div>
+                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-precision-basic.svg)" title="Movement precision"></div>
                                 <p>Movement precision</p>
                             </div>
                             <div class="col-xs-12 col-sm-4" data-animated="0">
-                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-white-dashboard.svg)" title="Athlete management system"></div>
+                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-dashboard-basic.svg)" title="Athlete management system"></div>
                                 <p>Analysis dashboard</p>
                             </div>
                             <div class="col-xs-12 col-sm-4" data-animated="0">
-                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-white-jointangles.svg)" title="Movement analysis"></div>
+                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-jointangles-basic.svg)" title="Movement analysis"></div>
                                 <p>Movement analysis</p>
                             </div>
                         </div>
