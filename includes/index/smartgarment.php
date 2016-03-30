@@ -5,10 +5,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-6">
-                    <h1>Smart Garment &amp; App</h1>
-                    <p>Our system brings together a featherweight compression suit that fits like a second skin, small scale sensors that track your movement, and an application that models those movements real‐time in 3D and provides actionable insights.</p>
+                    <h1 data-animated="0">Smart Garment &amp; App</h1>
+                    <p data-animated="0">Our system brings together a featherweight compression suit that fits like a second skin, small scale sensors that track your movement, and an application that models those movements real‐time in 3D and provides actionable insights.</p>
                     <p prop="about" data-animated="0">Heddoko empowers perfection in human movement, and provides real‐time 3D corrective feedback.</p>
-                    <a itemprop="url" href="/product/#mobile" class="btn btn-default" id="index_pg_mobile_learnmore_btn">Learn more</a>
+                    <a itemprop="url" href="/product/#mobile" class="btn btn-default" id="index_pg_mobile_learnmore_btn" data-animated="0">Learn more</a>
                 </div>
         </div>
     </section>
@@ -39,13 +39,13 @@
                 <h4>Movement<br> Analysis</h4>
             </div>
         </div>
-    </section>    
+    </section>
     <section class="specthis specapp">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h1><span>Perfection</span> in human movement. <br /> Real time 3D corrective feedback.</h1>
-                    <a itemprop="url" href="/product/#mobile" class="btn btn-default" id="index_pg_mobile_learnmore_btn">Learn more</a>
+                    <h1 data-animated="0"><span>Perfection</span> in human movement. <br /> Real time 3D corrective feedback.</h1>
+                    <a itemprop="url" href="/product/#mobile" class="btn btn-default" id="index_pg_mobile_learnmore_btn" data-animated="0">Learn more</a>
                 </div>
         </div>
     </section>

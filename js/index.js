@@ -175,7 +175,8 @@ $(document).ready(function(){
 Hero section
 ===================================================================== */
 $(document).ready(function() {
-	$('.scroll-page').click(function() {
+	$('.scroll-page').click(function(e) {
+		e.preventDefault();
 		$('html, body').animate({
 		       scrollTop: $('#productspecs').offset().top - 146
 		     }, 500, function(){
