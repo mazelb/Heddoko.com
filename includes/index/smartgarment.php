@@ -12,7 +12,7 @@
                 </div>
         </div>
     </section>
-    <div class="mobile-prod-image visible-sm-block">
+    <div class="mobile-prod-image hidden-lg hidden-md visible-sm-block">
         <img src="/images/index/bg_home_2.jpg" alt="Heddoko">
     </div>
     <section class="feature-group">
@@ -43,7 +43,7 @@
             </div>
         </div>
     </section>
-    <div class="mobile-prod-image visible-sm-block">
+    <div class="mobile-prod-image hidden-lg hidden-md visible-sm-block">
         <img src="/images/index/bg_home_2.jpg" alt="Heddoko">
     </div>
     <section class="smart-garment-app h-smart-app">
