@@ -669,8 +669,16 @@ form {
             text-align: center;
             position: absolute;
             z-index: 20;
+            -webkit-transition: 200ms ease-in-out;
+            -moz-transition: 200ms ease-in-out;
+            -o-transition: 200ms ease-in-out;
+            transition: 200ms ease-in-out;
 
             .icon-plus {
+                -webkit-transition: 200ms ease-in-out;
+                -moz-transition: 200ms ease-in-out;
+                -o-transition: 200ms ease-in-out;
+                transition: 200ms ease-in-out;
                 background: url(/images/icons/icon-plus-white.svg);
                 background-size: 16px 16px;
                 background-repeat: no-repeat;
@@ -684,6 +692,12 @@ form {
 
             &:hover {
                 background: lighten(#3bbd9f, 10%);
+
+                .icon-plus {
+                    -ms-transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
             }
 
             &.integrated {
