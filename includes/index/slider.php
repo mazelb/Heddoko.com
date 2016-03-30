@@ -14,7 +14,7 @@
     </div>
     <div class="container scroll-container">
         <div class="col-md-12">
-            <a href="#productspecs" class="scroll-page"></a>
+            <a href="#productspecs" class="scroll-page"><span>What We Do</span></a>
         </div>
     </div>
 </section>

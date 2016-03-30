@@ -1,7 +1,7 @@
 <section id="productspecs" itemscope itemtype="http://schema.org/MobileApplication" class="clearfix">
     <meta itemprop="operatingSystem" content="iOS">
     <meta itemprop="applicationCategory" content="Wearables, Sports">
-    <section class="specthis specgarment">
+    <section class="smart-garment-app h-smart-garment">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-6">
@@ -40,7 +40,7 @@
             </div>
         </div>
     </section>
-    <section class="specthis specapp">
+    <section class="smart-garment-app h-smart-app">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
