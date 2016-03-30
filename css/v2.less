@@ -83,6 +83,7 @@ header {
     padding-bottom: 5px;
     font-size: 15px;
     position: relative;
+    text-decoration: none;
 
     &:before {
         position: absolute;
@@ -109,6 +110,11 @@ header {
             //border-color: rgba(255,255,255,.75);
             opacity: 1;
         }
+    }
+
+    &:active, &:visited {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
     }
 }
 
