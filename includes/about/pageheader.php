@@ -3,7 +3,7 @@
 <div class="main-content" id="about_header">
     <div class="container">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 readable-column">
-            <h1 class="page-title">About Us <span></span></h1>
+            <h1 class="page-title">About Us</h1>
             <p class="page-description" itemprop="about" itemscope itemtype="http://schema.org/LocalBusiness">
                 <span itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
                     <meta itemprop="latitude" content="45.4947180" />

@@ -39,7 +39,7 @@
 
 <?php // include('../includes/product/benefitscoaches.php'); ?>
 
-<?php include('../includes/product/brochure.php'); ?>
+<?php // include('../includes/product/brochure.php'); ?>
 
 <?php include('../includes/footer.php'); ?>
 

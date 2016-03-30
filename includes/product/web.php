@@ -2,11 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h2>Smart App<span></span></h2>
+                <h2 class="accent-top-middle">Smart App</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-md-5 col-md-offset-1 content">
+            <div class="col-md-12 web-bg"></div>
+
+            <div class="col-xs-12 col-md-12 content">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="row">
@@ -40,10 +42,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-5 image">
-                <img src="../images/product/heddoko_web.png" data-animated="0" alt="Athlete management system">
-            </div>
         </div>
     </div>
-</div>
 </div>

@@ -1,3 +1,63 @@
+header {
+    padding-top: 0 !important;
+
+    @media (min-width: 768px) {
+        .navbar-top .container > .navbar-header .navbar-brand { margin-top: 25px; }
+        .navbar-top .container > .navbar-collapse .navbar-nav { margin-top: 25px; }
+    }
+}
+
+//-------------------------------------- 
+// Global overrides by body class
+.template-index,
+.template-product,
+.template-about {
+    .main-content {
+        margin: 146px 0 100px;
+        padding: 0;
+    }
+
+    p { font-size: 16px; line-height: 28px; }
+
+    .accent-top-middle,
+    .accent-left {
+        position: relative;
+        font-size: 48px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 40px;
+
+        &:before {
+            position: absolute;
+            content: '';
+        }
+    }
+
+    .accent-top-middle {
+        text-align: center;
+        &:before {
+            border-top: 5px solid #36bf9f;
+            width: 40px;
+            top: -32px;
+            left:  ~"calc(50% - 20px)"; 
+        }
+    }
+
+    .accent-left{
+        margin-bottom: 20px;
+        &:before {
+            border-left: 5px solid #36bf9f;
+            top: 6px;
+            left: -40px;
+            height: 85%;
+        }
+    }
+
+}
+
+
+
+//-------------------------------------- 
 // New Button Styles
 .btn-default-outline {
     border: 2px solid #36bf9f;
@@ -34,6 +94,7 @@
 }
 
 
+//-------------------------------------- 
 // Style Select2 Dropdown with Bootstrap overrides
 form {
     .select2 {
@@ -57,6 +118,7 @@ form {
     }
 }
 
+//-------------------------------------- 
 // Style the navbar
 .template-index,
 .template-product,
@@ -105,6 +167,9 @@ form {
     }
 }
 
+//----------------------------------------------------------------------------
+//----------------------------------------------------------------------------
+// Index Styles
 
 //-------------------------------------- 
 // Style home slider / hero
@@ -142,36 +207,6 @@ form {
 }
 
 
-//-------------------------------------- 
-// Style the quote form
-.quotation-form {
-    .company-size {
-        padding: 10px;
-    }
-}
-
-
-#featured {
-    a {
-        display: block;
-        position: relative;
-        line-height: 132px;
-    }
-    img {
-        max-width: 80%;
-        vertical-align: middle;
-        position: relative;
-    }
-    .feature {
-        text-align: center;
-    }
-    h2 {
-        margin-bottom: 20px;
-    }
-    .first-row {
-        margin-bottom: 30px;
-    }
-}
 .icon-header {
     color: #FFF;
     font-weight: 700;
@@ -206,21 +241,11 @@ form {
 // Index Partners
 #partners {
     background: #39373a;
-    padding-top: 120px !important;
+    padding-top: 100px !important;
 
-    .container .row > div h2.accent-top {
+    .container .row > div h2.accent-top-middle {
         font-size: 32px;
         font-weight: 600;
-        position: relative;
-
-        &:before {
-            position: absolute;
-            content: '';
-            border-top: 5px solid #36bf9f;
-            width: 40px;
-            top: -32px;
-            left:  ~"calc(50% - 20px)";
-        }
     }
 }
 
@@ -233,43 +258,6 @@ form {
         letter-spacing: 1px;
         line-height: 1.4em;
         margin: 30px 0;
-    }
-}
-.main-content {
-    .page-title {
-        margin-top: 120px;
-        // text-align: left;
-        span {
-            // margin-left: 0;
-            // margin-right: 0;
-            // width: 100%;
-            // height: 2px;
-        }
-    }
-    .page-description {
-        text-align: left;
-    }
-}
-
-
-#garment {
-    h2 {
-        // color: #fff;
-        font-size: 26px;
-        font-weight: bold;
-        display: block;
-        text-align: center;
-        text-transform: uppercase;
-        margin-bottom: 40px;
-        span {
-            background: #fff;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 30px;
-            height: 5px;
-            margin-top: 30px;
-        }
     }
 }
 
@@ -376,7 +364,7 @@ form {
     h2 { 
         font-size: 48px; 
         position: relative;
-        margin: 0 auto;
+        margin: 0 auto 20px;
         text-transform: uppercase;
         font-weight: 600;
         text-align: center;
@@ -390,7 +378,27 @@ form {
             left:  ~"calc(50% - 20px)";
         }
     }
+
+    a {
+        display: block;
+        position: relative;
+        line-height: 132px;
+    }
+
+    img {
+        max-width: 80%;
+        vertical-align: middle;
+        position: relative;
+    }
+
+    .feature { text-align: center; }
+    .first-row { margin-bottom: 20px;}
 }
+
+
+
+
+
 
 //-------------------------------------- 
 // Smart Garment + App
@@ -408,7 +416,7 @@ form {
         }
     }
 
-    p { font-size: 16px; line-height: 28px; margin-bottom: 20px; }
+    p { margin-bottom: 20px; }
 }
 
 .specgarment {
@@ -478,7 +486,219 @@ form {
 }
 
 
-//-------------------------------------- 
+//----------------------------------------------------------------------------
+//---------------------------------------------------------------------------- 
+// Product / About Page Styles
+.template-product,
+.template-about {
+    .main-content {
+        .page-title {
+            margin-top: 120px;
+            font-size: 60px;
+            color: #333;
+            position: relative;
+
+            &:before {
+                position: absolute;
+                content: '';
+                border-top: 5px solid #36bf9f;
+                width: 40px;
+                top: -32px;
+                left:  ~"calc(50% - 20px)";
+            }
+        }
+        .page-description {
+            text-align: center;
+        }
+    }
+
+    #howitworks {
+        border-top: none;
+        margin-top: 0;
+        padding-top: 80px;
+        padding-bottom: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        
+        .howitworks-steps {
+            margin-bottom: 80px;
+        }
+
+        p { margin-bottom: 50px; } 
+        
+        h2:before {height: 70%;}
+
+        h4 {
+            color: #49434D;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 14px;
+            padding-right: 150px;
+            margin-bottom: 0;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }  
+        
+        .select .image {
+            height: 93px;
+            width: 93px;
+            border: 1px solid rgba(0,0,0,.1);
+
+            &:hover {
+                background-color: #3bd6b2;
+            }
+            
+            img:first-child { opacity: 1; }
+        }
+        
+        .step-text { height: 93px; }
+        
+        .preview {
+            .item {
+                margin-top: 0; 
+                height: 800px;                 
+                background-size: contain;
+                background-repeat: no-repeat;
+                overflow: hidden;
+                position: relative;
+            }
+
+            .garment {
+                background-image: url(../images/product/bg_product_garment_2.png);
+                background-position: right bottom;
+            }
+            .apppair {
+                background-image: url(../images/product/heddoko_app_screen_pair.png);
+            }
+            .appcapture {
+                background-image: url(../images/product/heddoko_app_screen_movement-1.png);
+
+            }
+            .appadjustments {
+                background-image: url(../images/product/heddoko_app_screen_movement-3.png);
+            }
+
+            .apppair, .appcapture, .appadjustments {
+                width: 120%;
+                margin-left: -40px;
+                margin-top: 50px;
+                background-position: center center;
+
+            }
+        }
+
+        @media (min-width: 768px) {
+            .preview { margin-bottom: 0; }
+        }     
+    }
+
+    #garment {
+        margin-top: 0;
+        background: #bdbec2 url(/images/product/bg_garment_back.jpg);
+        background-size: 1600px 850px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 850px;
+        position: relative;
+        
+        .container { border-top: 0; }
+
+        h2 {
+            color: #333;
+            font-size: 48px;
+            font-weight: 600;
+            display: block;
+            text-align: left;
+            margin-bottom: 20px;
+
+            &:before {height: 70%;}
+        }
+
+        .feature-title {
+            color: #3e3e40;
+            font-size: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: left;
+        }
+
+        .smart-garment-features {
+            position: relative;
+        }
+        .feature-integrated-sensors {
+            position: absolute;
+            top: 600px;
+            left: 39px;
+            text-align: right;
+        }
+        .feature-data-capture {
+            position: absolute;
+            top: 304px;
+            left: 87px;
+            text-align: right;
+        }
+        .feature-moisture-control {
+            position: absolute;
+            top: 150px;
+            left: 263px;
+            text-align: right;
+        }
+        .feature-breathable {
+            position: absolute;
+            top: 154px;
+            right: 120px;
+        }
+        .feature-washable {
+            position: absolute;
+            top: 498px;
+            right: 54px;
+        }
+        .feature-durable {
+            position: absolute;
+            top: 664px;
+            right: 65px;
+        }
+    }
+
+    #web {
+        background: transparent;
+        padding-top: 120px;
+        
+        .web-bg {
+            background: transparent url(/images/product/heddoko_app_screen_movement-2.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            min-height: 640px;
+            position: relative;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 48px;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 60px;
+        }
+
+        
+        .content { padding-top: 0; }
+        .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img { width: 30%; border: 1px solid rgba(0,0,0,.1); }
+        .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img { padding-top: 30%; }
+        .container .row > .content .col-xs-12 .col-xs-12 p { 
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #49434D;
+        }
+    }
+}
+
+
+//----------------------------------------------------------------------------
+//----------------------------------------------------------------------------
 // Signup / Request Quote
 .template-signup,
 .template-quote {
@@ -495,8 +715,10 @@ form {
 .template-quote > section { background-image: url(../images/quote/bg_requestquote_3.jpg); }
 
 
-//-------------------------------------- 
-// ???
+
+//----------------------------------------------------------------------------
+//---------------------------------------------------------------------------- 
+// Misc. Styles
 .button-container {
     margin:0 auto;
     width: 100%;
@@ -516,7 +738,6 @@ form {
         width: 100%;
     }
 }
-
 .dark {
     background: #49434D;
 }
@@ -524,4 +745,9 @@ form {
     list-style-type: none;
     text-align: center;
     margin-bottom: 80px;
+}
+.quotation-form {
+    .company-size {
+        padding: 10px;
+    }
 }
