@@ -178,7 +178,7 @@ $(document).ready(function() {
 	$('.scroll-page').click(function(e) {
 		e.preventDefault();
 		$('html, body').animate({
-		       scrollTop: $('#productspecs').offset().top - 146
+		       scrollTop: $('#productspecs').offset().top - 113
 		     }, 500, function(){
 
 		       // when done, add hash to url

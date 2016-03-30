@@ -7,7 +7,7 @@ header {
     }
 }
 
-//-------------------------------------- 
+//--------------------------------------
 // Global overrides by body class
 .template-index,
 .template-product,
@@ -39,7 +39,7 @@ header {
             border-top: 5px solid #36bf9f;
             width: 40px;
             top: -32px;
-            left:  ~"calc(50% - 20px)"; 
+            left:  ~"calc(50% - 20px)";
         }
     }
 
@@ -57,7 +57,7 @@ header {
 
 
 
-//-------------------------------------- 
+//--------------------------------------
 // New Button Styles
 .btn-default-outline {
     border: 2px solid #36bf9f;
@@ -87,14 +87,14 @@ header {
     background: url(../images/svg/btn-arrow.svg) no-repeat center center;
     background-size: 35%;
 
-    &:hover { 
+    &:hover {
         opacity: 1;
-        border-color: rgba(255,255,255,.5); 
+        border-color: rgba(255,255,255,.5);
     }
 }
 
 
-//-------------------------------------- 
+//--------------------------------------
 // Style Select2 Dropdown with Bootstrap overrides
 form {
     .select2 {
@@ -118,7 +118,7 @@ form {
     }
 }
 
-//-------------------------------------- 
+//--------------------------------------
 // Style the navbar
 .template-index,
 .template-product,
@@ -150,7 +150,7 @@ form {
             }
         }
     }
-    
+
     .toggle-language {
         margin: 0 0 0 5px;
         a {
@@ -171,13 +171,15 @@ form {
 //----------------------------------------------------------------------------
 // Index Styles
 
-//-------------------------------------- 
+//--------------------------------------
 // Style home slider / hero
 .template-index {
     .slider-home {
         background-image: url(../images/index/bg_home_2.jpg);
         background-color: #46474d;
-        
+        height: 100%;
+        min-height: 1000px;
+
         .container > .fitbox {
             padding-top: 45%;
         }
@@ -237,7 +239,7 @@ form {
 }
 
 
-//-------------------------------------- 
+//--------------------------------------
 // Index Partners
 #partners {
     background: #39373a;
@@ -262,7 +264,7 @@ form {
 }
 
 
-//-------------------------------------- 
+//--------------------------------------
 // Video Section
 #seeitlive {
     background: transparent url(/images/index/bg_home_2.jpg);
@@ -271,11 +273,11 @@ form {
     height: 520px;
     text-align: center;
     position: relative;
-    
+
     h1, p {
         text-align: center;
     }
-    
+
     h1 {
         color: #fff;
         font-size: 48px;
@@ -316,7 +318,7 @@ form {
 }
 
 
-//-------------------------------------- 
+//--------------------------------------
 // Customer Uses / Product Benefits
 .template-index {
     #productbenefits {
@@ -356,13 +358,13 @@ form {
 }
 
 
-//-------------------------------------- 
+//--------------------------------------
 // Featured In
 #featured {
     padding-top: 120px;
 
-    h2 { 
-        font-size: 48px; 
+    h2 {
+        font-size: 48px;
         position: relative;
         margin: 0 auto 20px;
         text-transform: uppercase;
@@ -400,7 +402,7 @@ form {
 
 
 
-//-------------------------------------- 
+//--------------------------------------
 // Smart Garment + App
 .specthis {
     background-size: 50% auto;
@@ -424,8 +426,8 @@ form {
     background-position: left center;
     padding-top: 110px;
 
-    h1 { 
-        font-size: 40px; 
+    h1 {
+        font-size: 40px;
         position: relative;
         margin-left: 35px;
 
@@ -468,7 +470,7 @@ form {
     }
 }
 
-.template-index { 
+.template-index {
     #productspecs {
         padding: 0;
 
@@ -487,7 +489,7 @@ form {
 
 
 //----------------------------------------------------------------------------
-//---------------------------------------------------------------------------- 
+//----------------------------------------------------------------------------
 // Product / About Page Styles
 .template-product,
 .template-about {
@@ -518,13 +520,13 @@ form {
         padding-top: 80px;
         padding-bottom: 0;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        
+
         .howitworks-steps {
             margin-bottom: 80px;
         }
 
-        p { margin-bottom: 50px; } 
-        
+        p { margin-bottom: 50px; }
+
         h2:before {height: 70%;}
 
         h4 {
@@ -537,8 +539,8 @@ form {
             position: relative;
             top: 50%;
             transform: translateY(-50%);
-        }  
-        
+        }
+
         .select .image {
             height: 93px;
             width: 93px;
@@ -547,16 +549,16 @@ form {
             &:hover {
                 background-color: #3bd6b2;
             }
-            
+
             img:first-child { opacity: 1; }
         }
-        
+
         .step-text { height: 93px; }
-        
+
         .preview {
             .item {
-                margin-top: 0; 
-                height: 800px;                 
+                margin-top: 0;
+                height: 800px;
                 background-size: contain;
                 background-repeat: no-repeat;
                 overflow: hidden;
@@ -589,18 +591,102 @@ form {
 
         @media (min-width: 768px) {
             .preview { margin-bottom: 0; }
-        }     
+        }
     }
 
     #garment {
         margin-top: 0;
-        background: #bdbec2 url(/images/product/bg_garment_back.jpg);
+        background: #bdbec2 url(/images/product/bg_garment_back_2.jpg);
         background-size: 1600px 850px;
         background-repeat: no-repeat;
         background-position: center center;
         height: 850px;
         position: relative;
-        
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #bdbec2 url(/images/product/bg_garment_back.jpg);
+            z-index: 999;
+            opacity: 0.3;
+        }
+
+        .line{
+          transform-origin: 0 100%;
+          height: 1px;
+          background: #595a5c;
+          z-index: 10;
+        }
+
+
+
+        .circle {
+            background: #3bbd9f;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 3px solid #FFF;
+            text-align: center;
+            position: absolute;
+            z-index: 20;
+
+            .icon-plus {
+                background: url(/images/icons/icon-plus-white.svg);
+                background-size: 16px 16px;
+                background-repeat: no-repeat;
+                height: 16px;
+                width: 16px;
+                display: inline-block;
+                position: relative;
+                vertical-align: middle;
+                top: 6px;
+            }
+
+            &:hover {
+                background: lighten(#3bbd9f, 10%);
+            }
+
+            &.integrated {
+                top: -38px;
+                left: 208px;
+            }
+            &.full {
+                top: 100px;
+                left: 337px;
+            }
+            &.moisture {
+                top: 81px;
+                left: 180px;
+            }
+            &.breathable {
+                top: 26px;
+                left: -81px;
+            }
+            &.washable {
+                top: 102px;
+                left: -323px;
+            }
+            &.durable {
+                top: 36px;
+                left: -87px;
+            }
+        }
+
+        .underline {
+            height: 4px;
+            position: absolute;
+            background: #595a5c;
+            width: 40px;
+            bottom: -8px;
+            right: 0;
+
+            &.right {
+                right: inherit;
+                left: 0;
+            }
+        }
+
         .container { border-top: 0; }
 
         h2 {
@@ -625,6 +711,11 @@ form {
         .smart-garment-features {
             position: relative;
         }
+
+        .feature {
+            display: inline-block;
+        }
+
         .feature-integrated-sensors {
             position: absolute;
             top: 600px;
@@ -647,23 +738,26 @@ form {
             position: absolute;
             top: 154px;
             right: 120px;
+            text-align: lefts;
         }
         .feature-washable {
             position: absolute;
             top: 498px;
             right: 54px;
+            text-align: lefts;
         }
         .feature-durable {
             position: absolute;
             top: 664px;
             right: 65px;
+            text-align: lefts;
         }
     }
 
     #web {
         background: transparent;
         padding-top: 120px;
-        
+
         .web-bg {
             background: transparent url(/images/product/heddoko_app_screen_movement-2.png);
             background-size: cover;
@@ -681,11 +775,11 @@ form {
             margin-bottom: 60px;
         }
 
-        
+
         .content { padding-top: 0; }
         .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img { width: 30%; border: 1px solid rgba(0,0,0,.1); }
         .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img { padding-top: 30%; }
-        .container .row > .content .col-xs-12 .col-xs-12 p { 
+        .container .row > .content .col-xs-12 .col-xs-12 p {
             font-weight: 600;
             text-transform: uppercase;
             font-size: 14px;
@@ -717,7 +811,7 @@ form {
 
 
 //----------------------------------------------------------------------------
-//---------------------------------------------------------------------------- 
+//----------------------------------------------------------------------------
 // Misc. Styles
 .button-container {
     margin:0 auto;

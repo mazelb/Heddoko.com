@@ -117,7 +117,56 @@ $(document).ready(function() {
 		    }, 500);
 			return false;
 		}
-	})
+	});
+
+	function createLine(x1,y1, x2,y2){
+		var length = Math.sqrt((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2));
+		var angle  = Math.atan2(y2 - y1, x2 - x1) * 180 / Math.PI;
+		var transform = 'rotate('+angle+'deg)';
+
+	    var line = $('<div>')
+	        .appendTo('#garment')
+	        .addClass('line')
+	        .css({
+	          'position': 'absolute',
+	          'transform': transform
+	        })
+	        .width(length)
+	        .offset({left: x1, top: y1});
+
+	      console.log(line);
+	    return line;
+	}
+
+	function drawLines() {
+		$('.underline').each(function(i, obj) {
+			console.log(obj);
+			var position = $(obj).offset();
+			var plus = $(obj).parent().parent().find('.circle').offset();
+			console.log(position, plus);
+			var x1 = plus.left + 20;
+			var y1 = plus.top + 20;
+			if (!$(obj).hasClass('right')) {
+				x2 =  position.left + 39;
+				y2 =  position.top;
+			} else {
+				x2 = position.left + 1;
+				y2 =  position.top + 1;
+			}
+			createLine(x1, y1, x2, y2);
+
+		});
+	}
+	setTimeout(function() {
+		drawLines();
+	}, 500);
+
+	$( window ).resize(function() {
+		$('.line').remove();
+		setTimeout(function() {
+			drawLines();
+		}, 1000);
+	});
 });
 
 /* =====================================================================

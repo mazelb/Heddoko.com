@@ -1,4 +1,5 @@
 <section id="garment" itemscope itemtype="http://schema.org/Product">
+    <!-- <div class="overlay"></div> -->
     <meta itemprop="name" content="Heddoko Suit">
 
 	<div class="container">
@@ -6,31 +7,37 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" data-animated="0">
 				<h2 class="accent-left">Smart Garment</h2>
 			</div>
-			
+
             <div class="smart-garment-features">
-                <div class="feature-integrated-sensors">
-                    <span class="feature-title">Integrated Sensors</span>
+                <div class="feature feature-integrated-sensors">
+                    <span class="feature-title">Integrated Sensors<div class="underline"></div></span>
+                    <div class="circle integrated"><div class="icon-plus"></div></div>
                 </div>
 
-                <div class="feature-data-capture">
-                    <span class="feature-title">Full-Body Data Capture</span>
+                <div class="feature feature-data-capture">
+                    <span class="feature-title">Full-Body Data Capture<div class="underline"></div></span>
+                    <div class="circle full"><div class="icon-plus"></div></div>
                 </div>
 
-                <div class="feature-moisture-control">
-                    <span class="feature-title">Moisture Control</span>
-                </div>
-                
-                <div class="feature-breathable">
-                    <span class="feature-title">Breathable</span>
+                <div class="feature feature-moisture-control">
+                    <span class="feature-title">Moisture Control<div class="underline"></div></span>
+                    <div class="circle moisture"><div class="icon-plus"></div></div>
                 </div>
 
-                <div class="feature-washable">
-                    <span class="feature-title">Washable</span>
+                <div class="feature feature-breathable">
+                    <span class="feature-title">Breathable<div class="underline right"></div></span>
+                    <div class="circle breathable"><div class="icon-plus"></div></div>
                 </div>
-                
-                <div class="feature-durable">
-                    <span class="feature-title">Durable</span>
-                </div>                
+
+                <div class="feature feature-washable">
+                    <span class="feature-title">Washable<div class="underline right"></div></span>
+                    <div class="circle washable"><div class="icon-plus"></div></div>
+                </div>
+
+                <div class="feature feature-durable">
+                    <span class="feature-title">Durable<div class="underline right"></div></span>
+                    <div class="circle durable"><div class="icon-plus"></div></div>
+                </div>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 content" style="display: none;">
