@@ -29,11 +29,11 @@
 
 <?php // include('../includes/product/mobile.php'); ?>
 
+<?php include('../includes/product/whatwemeasure.php'); ?>
+
 <?php include('../includes/product/web.php'); ?>
 
 <?php // include('../includes/product/benefits.php'); ?>
-
-<?php include('../includes/product/whatwemeasure.php'); ?>
 
 <?php include('../includes/product/divider.php'); ?>
 

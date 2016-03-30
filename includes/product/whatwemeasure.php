@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1">
-				<h2 data-animated="0">What We Measure<span></span></h2>
+				<h2 data-animated="0" class="accent-top-middle">What We Measure</h2>
 
 				<p data-animated="0">
                     Everything we measure aims to answer a question: Are there key areas that can be addressed to improve how you move? How consistent is your technique? How is your movement affected by variables like fatigue or workspace design?<br><br>
@@ -11,8 +11,8 @@
 			</div>
 		</div>
 
-        <h2 class="title">We Quantify <span></span></h2>
-        <ul class="we-quantify-list">
+        <h3 data-animated="0" class="title">We Quantify</h3>
+        <ul data-animated="0" class="we-quantify-list">
             <li>Full‐body biomechanics in all planes of movement</li>
             <li>Joint Angles</li>
             <li>Angular Velocity</li>
