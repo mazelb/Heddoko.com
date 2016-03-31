@@ -12,21 +12,21 @@
                                 class="has-icon-img"
                                 style="background-image: url(images/icons/icon-coachanytime.svg)"
                                 title="Coach anytime, anywhere"></div>
-                            <p>Objective movement screening</p>
+                            <h4>Objective movement screening</h4>
                         </div>
                         <div class="col-xs-12 col-sm-4" data-animated="0">
                             <div
                                 class="has-icon-img"
                                 style="background-image: url(images/icons/icon-reduceinjury.svg)"
                                 title="Reduce risk of injury"></div>
-                            <p>Identification of risk factors</p>
+                            <h4>Identification of risk factors</h4>
                         </div>
                         <div class="col-xs-12 col-sm-4" data-animated="0">
                             <div
                                 class="has-icon-img"
                                 style="background-image: url(images/icons/icon-instantfeedback.svg)"
                                 title="Get instant feedback"></div>
-                            <p>Training &amp; Rehabilitation</p>
+                            <h4>Training &amp; Rehabilitation</h4>
                         </div>
 					</div>
 				</div>
