@@ -534,7 +534,17 @@ $(document).ready(function() {
 /* =====================================================================
 LEARN MORE ON THE PRODUCT
 ===================================================================== */
-
+$(document).ready(function() {
+	$("#how-customers-use").owlCarousel({
+		items: 1,
+		nav: false,
+		// navText: ["ergonomics", "sports"],
+		dots: true,
+		autoplay: true,
+		autoplayTimeout: 3000,
+		autoplayHoverPause: true
+	});
+});
 /* =====================================================================
 AWARDS SLIDER
 ===================================================================== */

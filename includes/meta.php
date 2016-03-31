@@ -116,9 +116,8 @@ if (count($dir) > 1)
 <!-- Bootstrap core CSS -->
 <link href="<?php echo $dir; ?>css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo $dir; ?>css/style.css" rel="stylesheet">
-<link href="<?php echo $dir; ?>js/owl-carousel/owl.carousel.css" rel="stylesheet">
-<link href="<?php echo $dir; ?>js/owl-carousel/owl.theme.css" rel="stylesheet">
-<link href="<?php echo $dir; ?>js/owl-carousel/owl.transitions.css" rel="stylesheet">
+<link href="<?php echo $dir; ?>js/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="<?php echo $dir; ?>js/owl-carousel/assets/owl.theme.default.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>css/component.css" />
 
 <!-- Fonts -->

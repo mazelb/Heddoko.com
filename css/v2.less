@@ -365,6 +365,17 @@ form {
             position: relative;
         }
 
+        &.sports {
+            .container .image {
+                background-image: url(../images/index/bg_home_2.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: left bottom;
+                overflow: hidden;
+                min-height: 640px;
+                position: relative;
+            }
+        }
         .container .row > .content {
             h2 {
                 color: #333;
@@ -1031,4 +1042,13 @@ form {
 }
 .centered {
     text-align: center;
+}
+#how-customers-use {
+    .owl-nav {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 200px;
+        margin-left: -100px;
+    }
 }
