@@ -7,7 +7,7 @@
 					<img src="../images/icons/icon_bulb_green.svg" class="green">
 				</span>
 				<h4>Cutting-edge</h4>
-				<p>We are a family of professionals and tech enthusiasts excited to share our passion and product with you.</p>
+				<p>We are a group of highly‐innovative thinkers that love to push the boundaries of what's possible.</p>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" data-animated="0">
 				<span class="icon brush">
@@ -23,7 +23,7 @@
 					<img src="../images/icons/icon_heart_green.svg" class="green">
 				</span>
 				<h4>Passionate</h4>
-				<p>We are a family of professionals excited to share our passion and product with you.</p>
+				<p>We are a family of professionals and tech‐enthusiasts, excited to share our passion and product with you.</p>
 			</div>
 		</div>
 	</div>

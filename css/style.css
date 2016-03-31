@@ -21,8 +21,8 @@ Version:	1.0
 	11. Clients info
 	12. Team
 	13. Portfolio
-	14. Parallax Wrap 
-	15. Contact 
+	14. Parallax Wrap
+	15. Contact
 	16. Map Wrap
 	17. Footer
 	18. Page Header
@@ -371,7 +371,7 @@ p {
 	padding: 0 12%;
 }
 
-.s1-main h4 ,.s2-main h4 , .s3-main h4 , .s4-main h4 { 
+.s1-main h4 ,.s2-main h4 , .s3-main h4 , .s4-main h4 {
 	visibility:hidden !important;
 	position:relative;
 	top:0px;
@@ -482,7 +482,7 @@ p {
 	padding: 0 30px;
 }
 
-.s-btn, .contact-form button,.c-form button {
+.s-btn, .c-form button {
 	font-size: 16px;
 	color: #000;
 	font-weight: 400;
@@ -506,33 +506,6 @@ p {
 }
 
 .s-btn:hover, .contact-form button:hover,.c-form button:hover {
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
-}
-
-.s-btn:before ,
-.s-btn:after ,
-.contact-form button:before ,
-.contact-form button:after ,
-.c-form button:before ,
-.c-form button:after {
-	content: "";
-	position: absolute;
-	right: 0px;
-	top: 3px;
-	transition: all 0.3s ease-in-out 0s;
-	font-size: 40px;
-	font-weight: 700;
-	background: #21C2F8;
-	width: 3px;
-	height: 28px;
-	transform: rotate(14deg);
-	-ms-transform: rotate(14deg);
- /* IE 9 */
-	-webkit-transform: rotate(14deg);
- /* Opera, Chrome, and Safari */
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
@@ -2714,7 +2687,7 @@ article {
 	display:none !important;
 }
 
-.s1-main h4 ,.s2-main h4 , .s3-main h4 , .s4-main h4, .hide-on-hover h4.active { 
+.s1-main h4 ,.s2-main h4 , .s3-main h4 , .s4-main h4, .hide-on-hover h4.active {
 	visibility:hidden !important;
 	position:relative;
 	top:0px;
@@ -2725,10 +2698,10 @@ article {
 }
 
 .s1-main:hover h4 ,
-.s2-main:hover h4 , 
-.s3-main:hover h4 , 
+.s2-main:hover h4 ,
+.s3-main:hover h4 ,
 .s4-main:hover h4 ,
-.hide-on-hover:hover h4.active { 
+.hide-on-hover:hover h4.active {
 	visibility:visible !important;
 	position:relative;
 	top:-8px;

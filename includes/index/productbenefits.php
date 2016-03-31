@@ -26,7 +26,7 @@
                                 class="has-icon-img"
                                 style="background-image: url(images/icons/icon-instantfeedback.svg)"
                                 title="Get instant feedback"></div>
-                            <p>Employee training &amp; Rehabilitation</p>
+                            <p>Training &amp; Rehabilitation</p>
                         </div>
 					</div>
 				</div>

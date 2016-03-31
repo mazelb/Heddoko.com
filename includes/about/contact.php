@@ -2,8 +2,6 @@
 <section id="contact">
 	<div class="container no-padding">
 		<h2>Contact us <span></span></h2>
-		<p class="title-sub">Have any questions? Want to keep in touch? We'd love to hear from you.</p>
-		<h4>Get in touch</h4>
 		<form class="contact-form" data-animated="0" id="contactForm" action="../php/contact.php" method="post">
 			<div class="col-md-12 no-padding">
 				<div class="col-md-4">
@@ -15,9 +13,9 @@
 					<textarea name="message" id="message" placeholder="Message*" rows="5" Required></textarea>
 				</div>
 			</div>
-			<div class="col-md-12">
+			<div class="col-md-12 centered">
 				<div class="space10"></div>
-				<button type="submit" id="about_pg_sendmessage_btn" >Send Message</button>
+				<button type="submit" id="" class="btn btn-default">Send Message</button>
 			</div>
 		</form>
 		<div id="successMessage" class="successmessage">
