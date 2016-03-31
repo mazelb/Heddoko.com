@@ -176,7 +176,7 @@ Hero section
 ===================================================================== */
 $(document).ready(function() {
 	$('.scroll-page').click(function(e) {
-		e.preventDefault();
+		// e.preventDefault();
 		$('html, body').animate({
 		       scrollTop: $('#productspecs').offset().top - 113
 		     }, 500, function(){
@@ -185,7 +185,8 @@ $(document).ready(function() {
 		       // (default click behaviour)
 		       window.location.hash = hash;
 		     });
-
+		this.blur();
+		return false;
 	});
 });
 
@@ -533,7 +534,17 @@ $(document).ready(function() {
 /* =====================================================================
 LEARN MORE ON THE PRODUCT
 ===================================================================== */
-
+$(document).ready(function() {
+	$("#how-customers-use").owlCarousel({
+		items: 1,
+		nav: false,
+		// navText: ["ergonomics", "sports"],
+		dots: true,
+		autoplay: true,
+		autoplayTimeout: 3000,
+		autoplayHoverPause: true
+	});
+});
 /* =====================================================================
 AWARDS SLIDER
 ===================================================================== */

@@ -1,8 +1,8 @@
 <section class="slider-home">
     <div class="container">
         <div class="col-xs-12 col-md-12 col-mg-8 col-lg-8">
-            <h1>Want to find out more?</h1>
-            <p><em>Subscribe to our mailing list to keep in touch and receive the latest news about Heddoko and our motion capture technology.</em></p>
+            <h1 class="page-title">Want to find out more?</h1>
+            <p class="readable-column"><em>Subscribe to our mailing list to keep in touch and receive the latest news about Heddoko and our motion capture technology.</em></p>
             <!-- Begin MailChimp Signup Form -->
             <div id="mc_embed_signup">
                 <form class="form" action="http://heddoko.us8.list-manage.com/subscribe/post-json?u=4752cc710a498b9b75d697500&amp;id=b22a426cab&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate="">

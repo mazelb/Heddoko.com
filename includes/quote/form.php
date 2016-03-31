@@ -6,8 +6,8 @@ require realpath(__DIR__) .'/../../php/quote.php';
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-12 col-mg-8 col-lg-8 col-mg-offset-2 col-lg-offset-2">
-                    <h1>Request A Quote</h1>
-                    <p>Interested in ordering a Development Kit?<br><br> Each Kit ships within 4‐6 weeks and contains a Quick Start Guide, smart compression suit, battery pack, motion‐ tracking sensors, and USB charger and cable. Please fill out the form below to get a quote – our sales team will contact you shortly.</p>
+                    <h1 class="page-title">Request A Quote</h1>
+                    <p class="readable-column">Each kit contains a Quick Start Guide, smart compression suit, battery pack, motion‐tracking sensors, and USB charger and cable. Please fill out the form below to get a quote – our sales team will contact you shortly. <br><br>(Note: Due to demand, current lead time for shipping is 4‐6 weeks)</p>
                     <form class="form" name="quotation" action="/php/quote.php" method="post">
                         <!-- First name -->
                         <div class="form-group">

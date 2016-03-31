@@ -1,7 +1,7 @@
 <section class="slider-home">
     <div class="container">
         <div class="col-xs-12 col-md-12 content fitbox">
-            <h1>Wearable motion capture technology <span>With fully integrated sensors that capture your every move in 3D.</span></h1>
+            <h1>Wearable motion capture for ergonomics and sports<span>An injury prevention solution with fully integrated sensors that capture your every move in 3D.</span></h1>
             <a href="/quote" class="btn btn-default-outline">Request a Quote</a>
         </div>
     </div>

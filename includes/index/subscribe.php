@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <h2>Subscribe now and get exclusive <span>updates and discounts!</span></h2>
+                <h2 class="headline">Subscribe now and get<br> exclusive updates.</h2>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <!-- Begin MailChimp Signup Form -->
