@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right content">
                     <h2 data-animated="0">How Our Customers Use Heddoko</h2>
-                    <p data-animated="0">By bringing the power of 3D motion capture technology out of the lab and into the workplace, health and safety specialists can harness the data they need to inform workplace decisions, evaluate job requirements, and redesign work environments in a way that has never been done before to build a stronger, more efficient workforce. Every motion that is recorded is turned into actionable knowledge to ultimately help companies take care of the asset that matters the most – their people.</p>
+                    <p data-animated="0">In a world where marginal gains mean the difference between winning and losing, Heddoko helps trainers optimize athletic performance screen for injuries before they happen, and use hard data to back rehabilitation and get athletes back in the game more efficiently. They have now the power to make better game‐time decisions on and off the field.</p>
 
                     <div class="col-xs-12">
                         <div class="row">

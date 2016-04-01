@@ -25,8 +25,6 @@
 
 <?php include('includes/index/productbenefits.php'); ?>
 
-<?php // include('includes/index/learnproduct.php'); ?>
-
 <?php include('includes/index/featured.php'); ?>
 
 <?php include('includes/index/partners.php'); ?>
