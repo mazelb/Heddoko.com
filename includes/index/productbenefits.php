@@ -8,21 +8,21 @@
 
                     <div class="col-xs-12">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="col-xs-4 col-sm-4" data-animated="0">
                                 <div
                                     class="has-icon-img"
                                     style="background-image: url(images/icons/icon-coachanytime.svg)"
                                     title="Coach anytime, anywhere"></div>
                                 <h4>Objective movement screening</h4>
                             </div>
-                            <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="col-xs-4 col-sm-4" data-animated="0">
                                 <div
                                     class="has-icon-img"
                                     style="background-image: url(images/icons/icon-reduceinjury.svg)"
                                     title="Reduce risk of injury"></div>
                                 <h4>Identification of risk factors</h4>
                             </div>
-                            <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="col-xs-4 col-sm-4" data-animated="0">
                                 <div
                                     class="has-icon-img"
                                     style="background-image: url(images/icons/icon-instantfeedback.svg)"
@@ -47,21 +47,21 @@
 
                     <div class="col-xs-12">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="col-xs-4 col-sm-4" data-animated="0">
                                 <div
                                     class="has-icon-img"
                                     style="background-image: url(images/icons/icon-coachanytime.svg)"
                                     title="Coach anytime, anywhere"></div>
                                 <h4>Objective movement screening</h4>
                             </div>
-                            <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="col-xs-4 col-sm-4" data-animated="0">
                                 <div
                                     class="has-icon-img"
                                     style="background-image: url(images/icons/icon-reduceinjury.svg)"
                                     title="Reduce risk of injury"></div>
                                 <h4>Identification of risk factors</h4>
                             </div>
-                            <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="col-xs-4 col-sm-4" data-animated="0">
                                 <div
                                     class="has-icon-img"
                                     style="background-image: url(images/icons/icon-instantfeedback.svg)"
