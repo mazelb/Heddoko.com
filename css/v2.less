@@ -13,7 +13,7 @@ header {
 .template-product,
 .template-about {
     .main-content {
-        margin: 146px 0 100px;
+        margin: 115px 0 100px;
         padding: 0;
     }
 
@@ -225,7 +225,7 @@ form {
     }
 
     .slider-home .container .fitbox h1 {
-        font-size: 80px !important;
+        font-size: 64px !important;
         line-height: 1;
 
         span {
@@ -298,7 +298,7 @@ form {
 //--------------------------------------
 // Video Section
 #seeitlive {
-    background: transparent url(/images/index/bg_home_2.jpg);
+    background: transparent url(/images/index/live-video-screenshot.jpg);
     background-size: cover;
     background-position: top center;
     height: 520px;
@@ -367,7 +367,7 @@ form {
 
         &.sports {
             .container .image {
-                background-image: url(/images/index/bg_home.jpg);
+                background-image: url(/images/index/heddoko-product-use-2.jpg);
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: left bottom;
@@ -441,29 +441,33 @@ form {
 
 //--------------------------------------
 // Smart Garment + App
-//--------------------------------------
-
 .smart-garment-app {
-    background-size: 50% auto;
-    background-repeat: no-repeat;
+    padding: 0; 
 
-    h1 {
-        text-transform: uppercase;
-        font-weight: 600;
-        font-size: 48px;
+    .container {
+        background-size: 50% auto;
+        background-repeat: no-repeat;
 
-        span {
-            color: #36bf9f;
+        h1 {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 48px;
+            margin-top: 88px;
+            
+            span {
+                color: #36bf9f;
+            }
         }
-    }
 
-    p { margin-bottom: 20px; }
+        p { margin-bottom: 20px; }
+    }
 }
 
-.h-smart-garment {
-    background-image: url(../images/index/bg_home_2.jpg);
+.h-smart-garment .container {
+    background-image: url(../images/index/smart-garment-and-app.jpg);
     background-position: left center;
-    padding-top: 110px;
+    min-height: 440px;
+    max-height: 450px;
 
     h1 {
         font-size: 40px;
@@ -483,9 +487,11 @@ form {
 
 }
 
-.h-smart-app {
-    background-image: url(../images/index/bg_home_2.jpg);
-    background-position: right center;
+.h-smart-app .container {
+    background-image: url(../images/index/heddoko-four-pillars.jpg);
+    background-position: right bottom;
+    min-height: 490px;
+    max-height: 500px;
 
     h1 {
         margin-right: 35px;
@@ -535,7 +541,7 @@ form {
     .main-content {
         .page-title {
             margin-top: 120px;
-            font-size: 60px;
+            font-size: 52px;
             color: #333;
             position: relative;
 
@@ -564,12 +570,13 @@ form {
         .container { height: 100%; }
 
         h1 {
-            font-size: 50px;
+            font-size: 42px;
             color: #fff;
             font-weight: 600;
             text-transform: uppercase;
             text-align: center;
             text-shadow: 0 1px 6px rgba(0,0,0,.5);
+            padding: 0 80px;
 
             position: relative;
             top: 50%;
@@ -1060,6 +1067,11 @@ form {
 .centered {
     text-align: center;
 }
+
+
+
+//--------------------------------------
+// Style Carousel
 #how-customers-use {
     .owl-nav {
         position: absolute;
@@ -1069,28 +1081,71 @@ form {
         .owl-next {
             float: right;
             padding: 10px 10px 7px 15px;
+            margin-right: 15px;
         }
         .owl-prev {
             float: left;
             padding: 10px 15px 7px 10px;
+            margin-left: 15px;
         }
         .fa {
             font-size: 36px;
         }
     }
 }
-footer .container .footer-nav {
-    li, a {
-        text-align: center;
+
+.owl-theme {
+    .owl-nav [class*=owl-] {
+        color: #dcdcde;
+        background-color: transparent;
+        transition: all 0.2s;
+        
+        &:hover {
+            color: #36bf9f;
+            background-color: transparent;
+        }
+    }
+
+    .owl-dots { margin: 15px auto; }
+
+    .owl-dots .owl-dot span {
+        background-color: #dcdcde;
+        transition: all 0.2s;
+
+        &:hover, &:hover span {
+            background-color: #36bf9f;
+        }
+    }
+    .owl-dot:hover span { background-color: #36bf9f; }
+
+    .owl-dots .owl-dot.active span, 
+    .owl-dots .owl-dot:hover span {
+        background-color: #36bf9f;
     }
 }
 
 
+//--------------------------------------
+// Footer
+footer .container {
+    .footer-nav {
+        text-align: center;
+        margin: 0 auto 20px;
 
+        li {
+            width: auto;
+            display: inline-block;
+            float: none;
 
-
-
-
+            > a {
+                font-size: 14px;
+            }
+        }
+    }
+    .footer-social a .fa { font-size: 1.5em; }   
+    #copyright { font-size: 14px; color: rgba(255,255,255,.75); }
+    p { margin-bottom: 30px; }
+}
 
 
 
