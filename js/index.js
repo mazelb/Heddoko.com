@@ -537,12 +537,14 @@ LEARN MORE ON THE PRODUCT
 $(document).ready(function() {
 	$("#how-customers-use").owlCarousel({
 		items: 1,
-		nav: false,
-		// navText: ["ergonomics", "sports"],
+		nav: true,
+		navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
 		dots: true,
 		autoplay: true,
-		autoplayTimeout: 3000,
-		autoplayHoverPause: true
+		rtl:true,
+		autoplayTimeout: 10000,
+		autoplayHoverPause: true,
+		loop: true,
 	});
 });
 /* =====================================================================

@@ -5,9 +5,8 @@
 				<h2 data-animated="0" class="accent-top-middle">What We Measure</h2>
 
 				<p data-animated="0">
-                    Everything we measure aims to answer a question: Are there key areas that can be addressed to improve how you move? How consistent is your technique? How is your movement affected by variables like fatigue or workspace design?<br><br>
-                    Heddoko provides valuable metrics that help make workplaces safer and improve efficiency – from objective movement evaluations that identify risk factors for musculoskeletal disorders, to physical demands analyses for specific jobs tasks, to recording baseline standards that can be used for comparison if an employee is injured and returning to work.
-                </p>
+                    Everything we measure aims to answer a question: Can your mechanics be improved to help you run faster and jump higher? How are your hips and shoulders rotating during your golf swing? How consistent is your technique? How much is fatigue affecting your movement?
+                    <br><br>Heddoko provides the motion insights needed to keep athletes safer and improve their efficiency – from objective movement screening, to 3D technique analysis, to concretely measuring and guiding athlete rehabilitation.                </p>
 			</div>
 		</div>
 

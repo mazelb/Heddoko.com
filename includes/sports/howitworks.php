@@ -1,11 +1,11 @@
 <section id="howitworks">
 	<div class="container">
 		<div class="row">
-			
+
 			<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 howitworks-steps">
 				<h2 class="animated-in accent-left" data-animated="0">How it works</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio.</p>
-				
+				<p>Completely mobile. Easy to set up. Easy to use. Data that is easy to interpret.</p>
+
 				<div class="row select active" data-animated="0">
 					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 						<span class="image" title="Motion capture (Mocap) suit">

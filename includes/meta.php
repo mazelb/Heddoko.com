@@ -133,9 +133,9 @@ if (count($dir) > 1)
 
 <!-- Style Switch -->
 <link rel="stylesheet" href="<?php echo $dir; ?>css/colors/heddoko.css" />
-<link rel="stylesheet" href="<?php echo $dir; ?>css/defaults.css?20151013" />
-<link rel="stylesheet" href="<?php echo $dir; ?>css/v2.css?20160330" />
-<link rel="stylesheet" href="<?php echo $dir; ?>css/v2-responsive.css?20160330" />
+<link rel="stylesheet" href="<?php echo $dir; ?>css/defaults.css?20160401" />
+<link rel="stylesheet" href="<?php echo $dir; ?>css/v2.css?20160401" />
+<link rel="stylesheet" href="<?php echo $dir; ?>css/v2-responsive.css?20160401" />
 
 <!-- WEBFONTS -->
 <!-- insert script here -->

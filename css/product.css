@@ -745,14 +745,6 @@ WEB APP
 /* =====================================================================
 BENEFITSATHLETES
 ===================================================================== */
-#whatwemeasure {
-	border-top: 90px solid transparent;
-	margin-top: -90px;
-	padding-top: 90px;
-	padding-bottom: 0px;
-
-}
-
 #whatwemeasure h2 {
 	color: #3bd6b2;
 	font-size: 26px;

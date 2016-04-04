@@ -13,33 +13,23 @@
 	<link rel="stylesheet" href="../css/product.css?20150922" />
 </head>
 
-<body id="page-top" class="template-product" itemscope itemtype="http://schema.org/WebPage">
+<body id="page-top" class="template-product sports" itemscope itemtype="http://schema.org/WebPage">
 
 <?php include('../includes/header.php'); ?>
 
 <?php include('../includes/sports/pageheader.php'); ?>
 
-<?php include('../includes/sports/mobileapp.php'); ?>
+<?php include('../includes/sports/tagline.php'); ?>
 
 <?php include('../includes/sports/howitworks.php'); ?>
 
-<?php // include('../includes/sports/better.php'); ?>
-
 <?php include('../includes/sports/garment.php'); ?>
-
-<?php // include('../includes/sports/mobile.php'); ?>
-
-<?php include('../includes/sports/whatwemeasure.php'); ?>
 
 <?php include('../includes/sports/web.php'); ?>
 
-<?php // include('../includes/sports/benefits.php'); ?>
+<?php include('../includes/sports/whatwemeasure.php'); ?>
 
 <?php include('../includes/sports/divider.php'); ?>
-
-<?php // include('../includes/sports/benefitscoaches.php'); ?>
-
-<?php // include('../includes/sports/brochure.php'); ?>
 
 <?php include('../includes/footer.php'); ?>
 

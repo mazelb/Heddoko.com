@@ -367,7 +367,7 @@ form {
 
         &.sports {
             .container .image {
-                background-image: url(../images/index/bg_home_2.jpg);
+                background-image: url(/images/index/bg_home.jpg);
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: left bottom;
@@ -553,6 +553,7 @@ form {
         }
     }
 
+
     #apphighlight {
         background: transparent url(/images/product/bg-product-dashboard.jpg);
         background-size: cover;
@@ -573,6 +574,12 @@ form {
             position: relative;
             top: 50%;
             transform: translateY(-50%);
+        }
+    }
+
+    &.sports {
+        #apphighlight {
+            background: transparent url(/images/index/bg_social.jpg);
         }
     }
 
@@ -635,7 +642,7 @@ form {
                 background-image: url(../images/product/heddoko_app_screen_pair.png);
             }
             .appcapture {
-                background-image: url(../images/product/heddoko_app_screen_movement-1.png);
+                background-image: url(../images/product/heddoko_app_screen_movement-3.1.png);
 
             }
             .appadjustments {
@@ -854,21 +861,31 @@ form {
 
 
         .content { padding-top: 0; }
-        .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img { width: 30%; border: 1px solid rgba(0,0,0,.1); }
-        .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img { padding-top: 30%; }
-        .container .row > .content .col-xs-12 .col-xs-12 p {
-            font-weight: 600;
-            text-transform: uppercase;
-            font-size: 14px;
-            text-align: center;
-            margin-bottom: 20px;
-            color: #49434D;
+        .container .row > .content .col-xs-12 .col-img {
+            .has-icon-img {
+                padding-top: 30%;
+                width: 30%;
+                border: 1px solid rgba(0,0,0,.1);
+                background-position: center center;
+                background-repeat: no-repeat;
+                margin: 0 auto;
+            }
+            p {
+                font-weight: 600;
+                text-transform: uppercase;
+                font-size: 14px;
+                text-align: center;
+                margin-bottom: 20px;
+                color: #49434D;
+                margin-top: 10px;
+            }
         }
     }
 
     #whatwemeasure {
         background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.035));
         border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+        border-top: 1px solid rgba(0, 0, 0, 0.075);
         h2 {
             color: #333;
             font-size: 48px;
@@ -1046,9 +1063,44 @@ form {
 #how-customers-use {
     .owl-nav {
         position: absolute;
-        top: 0;
-        left: 50%;
-        width: 200px;
-        margin-left: -100px;
+        top: 50%;
+        left: 0;
+        right: 0;
+        .owl-next {
+            float: right;
+            padding: 10px 10px 7px 15px;
+        }
+        .owl-prev {
+            float: left;
+            padding: 10px 15px 7px 10px;
+        }
+        .fa {
+            font-size: 36px;
+        }
     }
 }
+footer .container .footer-nav {
+    li, a {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

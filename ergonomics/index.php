@@ -13,33 +13,23 @@
 	<link rel="stylesheet" href="../css/product.css?20150922" />
 </head>
 
-<body id="page-top" class="template-product" itemscope itemtype="http://schema.org/WebPage">
+<body id="page-top" class="template-product ergonomics" itemscope itemtype="http://schema.org/WebPage">
 
 <?php include('../includes/header.php'); ?>
 
 <?php include('../includes/ergonomics/pageheader.php'); ?>
 
-<?php include('../includes/ergonomics/mobileapp.php'); ?>
+<?php include('../includes/ergonomics/tagline.php'); ?>
 
 <?php include('../includes/ergonomics/howitworks.php'); ?>
 
-<?php // include('../includes/ergonomics/better.php'); ?>
-
 <?php include('../includes/ergonomics/garment.php'); ?>
-
-<?php // include('../includes/ergonomics/mobile.php'); ?>
-
-<?php include('../includes/ergonomics/whatwemeasure.php'); ?>
 
 <?php include('../includes/ergonomics/web.php'); ?>
 
-<?php // include('../includes/ergonomics/benefits.php'); ?>
+<?php include('../includes/ergonomics/whatwemeasure.php'); ?>
 
 <?php include('../includes/ergonomics/divider.php'); ?>
-
-<?php // include('../includes/ergonomics/benefitscoaches.php'); ?>
-
-<?php // include('../includes/ergonomics/brochure.php'); ?>
 
 <?php include('../includes/footer.php'); ?>
 
