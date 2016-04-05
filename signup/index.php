@@ -10,7 +10,7 @@
 
 	<?php $fileName = basename(__DIR__); ?>
 
-	<link rel="stylesheet" href="../css/signup.css?20150922" />
+	<link rel="stylesheet" href="../css/signup.css?20160405" />
 </head>
 
 <body id="page-top" class="template-<?php echo $fileName; ?>" itemscope itemtype="http://schema.org/WebPage">

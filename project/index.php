@@ -15,7 +15,7 @@
     $self = array_filter(explode("/", $_SERVER['PHP_SELF']));
     $baseName = $self[1] == 'FR' ? '../..' : '..';
     ?>
-	<link rel="stylesheet" href="<?= $baseName ?>/css/<?= $fileName ?>.css?20151007">
+	<link rel="stylesheet" href="<?= $baseName ?>/css/<?= $fileName ?>.css?20160405">
 </head>
 
 <body id="page-top" class="template-<?= $fileName; ?>">
@@ -28,6 +28,6 @@
 
 <?php include('../includes/footer.php'); ?>
 
-    <script type="text/javascript" src="<?= $baseName .'/js/'. $fileName .'.js?20151028' ?>"></script>
+    <script type="text/javascript" src="<?= $baseName .'/js/'. $fileName .'.js?20160405' ?>"></script>
 </body>
 </html>
