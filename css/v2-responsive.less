@@ -78,7 +78,7 @@
             margin: 20px 0 0 -50px;
         }
     }
-    .template-about .light-button, .template-index .light-button, .template-product .light-button, .template-quote .light-button, .template-signup .light-button {
+    .template-about .light-button, .template-index .light-button, .template-product .light-button, .template-project .light-button, .template-signup .light-button {
         margin: 15px;
         text-align: center;
     }
@@ -87,17 +87,27 @@
     .template-about {
         .main-content .page-title {
             font-size: 28px;
-            margin-top: 0;
+            margin-top: 30px;
         }
         #apphighlight h1 {
             font-size: 36px;
+            padding: 0;
         }
         .accent-left {
             font-size: 40px;
+            text-align: center;
         }
-        #howitworks h4 {
-            padding-right: 0;
-            text-align: left;
+        #howitworks {
+            .howitworks-steps {
+                margin-bottom: 0;
+            }
+            .preview .item {
+                height: 500px;
+            }
+            h4 {
+                padding-right: 0;
+                text-align: left;
+            }
         }
         #garment {
             background-position: center top;
@@ -127,6 +137,7 @@
             }
         }
         #whatwemeasure {
+            padding-bottom: 0;
             ul {
                 text-align: left;
                 li {
@@ -181,10 +192,13 @@
             }
         }
     }
-    .template-quote, .template-signup {
+    .template-project, .template-signup {
         .page-title {
             margin-top: 0;
             font-size: 28px;
+            span {
+                display: none;
+            }
         }
         .quotation-form .container > div .form,
         .slider-home .container > div .form {

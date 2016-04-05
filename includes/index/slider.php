@@ -2,7 +2,7 @@
     <div class="container">
         <div class="col-xs-12 col-md-12 content fitbox">
             <h1>Wearable motion capture for ergonomics and sports<span>An injury prevention solution with fully integrated <br> sensors that capture your every move in 3D.</span></h1>
-            <a href="/quote" class="btn btn-default-outline">Request a Quote</a>
+            <a href="/project" class="btn btn-default-outline">Start Your Project</a>
         </div>
     </div>
     <div class="container scroll-container">
