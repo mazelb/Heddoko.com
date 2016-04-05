@@ -96,6 +96,7 @@ class Quote
             'PHONE_NUMBER' => strip_tags(trim($_POST['phone'])),
             'EMAIL_ADDRESS' => $emailAddress,
             'WEBSITE_URL' => strip_tags(trim($_POST['website'])),
+            'APPLICATION' => strip_tags(trim($_POST['application'])),
             'LEAD_SOURCE_ID' => $leadSourceID
         ];
 

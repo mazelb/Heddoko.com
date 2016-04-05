@@ -6,8 +6,19 @@ require realpath(__DIR__) .'/../../php/quote.php';
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-12 col-mg-8 col-lg-8 col-mg-offset-2 col-lg-offset-2">
-                    <h1 class="page-title">Request A Quote</h1>
-                    <p class="readable-column">Each kit contains a Quick Start Guide, smart compression suit, battery pack, motion‐tracking sensors, and USB charger and cable. Please fill out the form below to get a quote – our sales team will contact you shortly. <br><br>(Note: Due to demand, current lead time for shipping is 4‐6 weeks)</p>
+                    <h1 class="page-title">
+                        Work with Heddoko
+                        <span>Do you have a development project in mind?<br> Would you like to test our product?<br> Let us help you put your ideas in motion.</span>
+                    </h1>
+                    <p class="readable-column">
+                    Please describe your project in the form below – our sales team will contact you shortly.
+                    <br><br>
+                    Once our sales rep gets in touch with you, we can get you started with a Demo Package. Each Demo Package contains a Quick Start guide, smart compression suit, motion tracking sensors, battery pack, USB charger and cable, and demo software.
+                    <br><br>
+                    Each Demo kit contains a Quick Start Guide, smart compression suit, battery pack, motion‐tracking sensors, and USB charger and cable. Please fill out the form below to get a quote – our sales team will contact you shortly.
+                    <br><br>
+                    (Note: Due to demand, current lead time for shipping is 4‐6 weeks)
+                    </p>
                     <form class="form" name="quotation" action="/php/quote.php" method="post">
                         <!-- First name -->
                         <div class="form-group">
@@ -29,20 +40,8 @@ require realpath(__DIR__) .'/../../php/quote.php';
                         <div class="form-group">
                             <input type="text" class="form-control" name="title" placeholder="Title" required>
                         </div>
-                        <!-- Units required -->
                         <div class="form-group">
-                            <select name="num_units" class="form-control company-size" placeholder="Company Size" id="company_size" required>
-                                <option value=""></option>
-                                <option value="myself only">Myself only</option>
-                                <option value="2-10">2-10</option>
-                                <option value="11-50">11-50</option>
-                                <option value="51-200">51-200</option>
-                                <option value="201-500">201-500</option>
-                                <option value="501-1000">501-1000</option>
-                                <option value="1001-5000">1001-5000</option>
-                                <option value="5001-10000">5001-10000</option>
-                                <option value="10001+">10001+</option>
-                            </select>
+                            <textarea name="application" id="application" cols="30" rows="10" class="form-control" placeholder="Please share with us what you have in mind for the Heddoko solution."></textarea>
                         </div>
                         <!-- Phone number -->
                         <div class="form-group">

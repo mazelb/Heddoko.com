@@ -22,9 +22,9 @@
 
 <?php include('../includes/header.php'); ?>
 
-<?php include('../includes/quote/form.php'); ?>
+<?php include('../includes/project/form.php'); ?>
 
-<?php include('../includes/quote/javascript.php'); ?>
+<?php include('../includes/project/javascript.php'); ?>
 
 <?php include('../includes/footer.php'); ?>
 

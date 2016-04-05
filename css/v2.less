@@ -152,7 +152,7 @@ form {
 .template-product,
 .template-about,
 .template-signup,
-.template-quote {
+.template-project {
     .navbar-nav li a {
         margin-top: 3px;
     }
@@ -442,7 +442,7 @@ form {
 //--------------------------------------
 // Smart Garment + App
 .smart-garment-app {
-    padding: 0; 
+    padding: 0;
 
     .container {
         background-size: 50% auto;
@@ -983,7 +983,7 @@ form {
 //----------------------------------------------------------------------------
 // Signup / Request Quote
 .template-signup,
-.template-quote {
+.template-project {
     > section {
         background-size: cover;
         overflow: hidden;
@@ -998,6 +998,15 @@ form {
         color: #333;
         position: relative;
 
+        span {
+            display: block;
+            margin: 30px 0 50px;
+            font-size: 32px;
+            font-weight: 400;
+            text-transform: none;
+            line-height: 1;
+        }
+
         &:before {
             position: absolute;
             content: '';
@@ -1011,9 +1020,13 @@ form {
         font-size: 18px;
         line-height: 28px;
     }
+    textarea {
+        font-size: 18px;
+        padding: 16px 20px;
+    }
 }
 .template-signup > section { background-image: url(../images/signup/bg_signup_2.jpg); }
-.template-quote > section { background-image: url(../images/quote/bg_requestquote_3.jpg); }
+.template-project > section { background-image: url(../images/project/bg_requestquote_3.jpg); }
 
 
 
@@ -1110,7 +1123,7 @@ form {
         color: #dcdcde;
         background-color: transparent;
         transition: all 0.2s;
-        
+
         &:hover {
             color: #36bf9f;
             background-color: transparent;
@@ -1129,7 +1142,7 @@ form {
     }
     .owl-dot:hover span { background-color: #36bf9f; }
 
-    .owl-dots .owl-dot.active span, 
+    .owl-dots .owl-dot.active span,
     .owl-dots .owl-dot:hover span {
         background-color: #36bf9f;
     }
@@ -1153,7 +1166,7 @@ footer .container {
             }
         }
     }
-    .footer-social a .fa { font-size: 1.5em; }   
+    .footer-social a .fa { font-size: 1.5em; }
     #copyright { font-size: 14px; color: rgba(255,255,255,.75); }
     p { margin-bottom: 30px; }
 }
