@@ -1,7 +1,7 @@
 <!-- Contact -->
 <section id="contact">
 	<div class="container no-padding">
-		<h2>Contact us <span></span></h2>
+		<h2 class="accent-top-middle">Contact us</h2>
 		<form class="contact-form" data-animated="0" id="contactForm" action="../php/contact.php" method="post">
 			<div class="col-md-12 no-padding">
 				<div class="col-md-4">

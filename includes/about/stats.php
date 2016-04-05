@@ -3,7 +3,8 @@
 	<div class="overlay"></div>
 	<div class="container skills-wrap">
 		<div class="col-md-12">
-			<a id="about_pg_join_btn" href="mailto:jobs@heddoko.com"><h4>Would you like to join our team? Apply here!</h4></a>
+			<h2>Would you like to join our team?</h2>
+			<a id="about_pg_join_btn" href="mailto:jobs@heddoko.com" class="btn btn-max-black btn-apply">Apply here!</a>
 			<p>We are...</p>
 			<div class="row">
 				<ul>

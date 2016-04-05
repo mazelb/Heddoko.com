@@ -3,7 +3,7 @@
 		<div class="row">
 
 			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
-				<a class="prev"><img src="../images/icons/icon-arrowleft.svg" /></a>
+				<a class="prev"><i class="fa fa-chevron-left"></i></a>
 			</div>
 
 
@@ -69,7 +69,7 @@
 			</div>
 
 			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
-				<a class="next"><img src="../images/icons/icon-arrowright.svg" /></a>
+				<a class="next"><i class="fa fa-chevron-right"></i></a>
 			</div>
 
 

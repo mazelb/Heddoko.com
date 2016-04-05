@@ -2,7 +2,7 @@
     <div class="container" id="owl-team">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1" data-animated="0">
-                <h2>Our Team <span></span></h2>
+                <h2 class="accent-top-middle">Our Team</h2>
             </div>
         </div>
         <div class="row">
@@ -180,7 +180,7 @@
                     <div class="item col-md-4" data-animated="0">
                         <div class="col-md-12">
                             <div class="team-staff">
-                                <img src="/images/about/team/sean_edited.jpg" class="img-responsive" alt="" />/>
+                                <img src="/images/about/team/sean_edited.jpg" class="img-responsive" alt="" />
                                 <div class="team-overlay">
                                     <div class="social">
                                         <ul data-animated="0">
