@@ -20,7 +20,7 @@ require realpath(__DIR__) .'/../../php/quote.php';
                     <form class="form" name="quotation" action="/php/quote.php" method="post">
                         <!-- First name -->
                         <div class="form-group">
-                            <input type="text" class="form-control" name="first_name" placeholder="First Name" required autofocus>
+                            <input type="text" class="form-control" name="first_name" placeholder="First Name" required>
                         </div>
                         <!-- Last name -->
                         <div class="form-group">

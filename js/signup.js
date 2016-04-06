@@ -21,24 +21,8 @@ $(document).ready(function() {
 	    theme: "bootstrap",
 	    placeholder: "Profession",
 	    allowClear: false,
+	    width: "resolve"
 	});
-
-	//reset header height
-	function resetHeight() {
-		var windowHeight = $(window).height();
-		windowHeight = (windowHeight > 768) ? windowHeight : 768;
-		$('.slider-home').css({height : windowHeight+'px'});
-	}
-
-	//on window resize reset slider height
-	$(window).resize(function() {
-		resetHeight();
-	});
-
-	/**
-	* Init
-	*/
-	resetHeight();
 
 });
 
