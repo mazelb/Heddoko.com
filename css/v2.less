@@ -89,7 +89,19 @@ header {
     margin-left: -100px;
     text-align: center;
 }
-
+.scroll-down-arrow {
+    position: absolute;
+    content: '';
+    background: url(../images/svg/btn-arrow.svg) no-repeat center center;
+    background-size: 100%;
+    width: 28px;
+    height: 28px;
+    display: block;
+    opacity: .75;
+    border-radius: 50%;
+    bottom: 30px;
+    left:  ~"calc(50% - 14px)";
+}
 .scroll-page {
     color: rgba(255, 255, 255, 0.85);
     border-bottom: 2px solid rgba(255, 255, 255, 0.25);
@@ -220,12 +232,9 @@ form {
         background-image: url(../images/index/bg_home_2.jpg);
         background-color: #46474d;
         height: 100%;
-        min-height: 1000px;
 
         .container > .fitbox {
-            position: absolute;
-            height: 352px;
-            top: 50%;
+            padding-top: 50%;
             margin-top: -352px/2;
         }
 
@@ -363,7 +372,6 @@ form {
         text-transform: uppercase;
     }
 }
-
 #behindthescenes {
     background-image: url(/images/about/behind-the-scenes.jpg);
     height: 420px;
@@ -378,14 +386,13 @@ form {
 .template-index {
     #productbenefits {
         padding-bottom: 0;
-
         .container .image {
             background-image: url(../images/index/heddoko-product-use.png);
             background-size: contain;
             background-repeat: no-repeat;
             background-position: left bottom;
+            height: 535px;
             overflow: hidden;
-            min-height: 640px;
             position: relative;
         }
 
@@ -395,8 +402,8 @@ form {
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: left bottom;
+                height: 535px;
                 overflow: hidden;
-                min-height: 640px;
                 position: relative;
             }
         }
@@ -484,14 +491,13 @@ form {
         }
 
         p { margin-bottom: 20px; }
+        .btn { margin-bottom: 80px; }
     }
 }
 
 .h-smart-garment .container {
     background-image: url(../images/index/smart-garment-and-app.jpg);
     background-position: left center;
-    min-height: 440px;
-    max-height: 450px;
 
     h1 {
         font-size: 40px;
@@ -514,8 +520,6 @@ form {
 .h-smart-app .container {
     background-image: url(../images/index/heddoko-four-pillars.jpg);
     background-position: right bottom;
-    min-height: 490px;
-    max-height: 500px;
 
     h1 {
         margin-right: 35px;
@@ -878,7 +882,6 @@ form {
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
-            min-height: 640px;
             position: relative;
         }
 

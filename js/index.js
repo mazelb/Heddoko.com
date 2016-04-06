@@ -12,10 +12,18 @@ NAV BACKGROUND SCROLLING
 ===================================================================== */
 $(window).scroll(function() {
 	var scroll = $(window).scrollTop();
-	if (scroll >= 220) {
-		$('header').addClass('highlight');
-			} else {
-		$('header').removeClass('highlight');
+	if (window.mobileAndTabletcheck()) {
+		if (scroll >= 10) {
+			$('header').addClass('highlight');
+		} else {
+			$('header').removeClass('highlight');
+		}
+	} else {
+		if (scroll >= 220) {
+			$('header').addClass('highlight');
+		} else {
+			$('header').removeClass('highlight');
+		}
 	}
 });
 
@@ -178,9 +186,21 @@ $(document).ready(function() {
 	$('.scroll-page').click(function(e) {
 		// e.preventDefault();
 		$('html, body').animate({
-		       scrollTop: $('#productspecs').offset().top - 113
+		       scrollTop: $('#productspecs').offset().top - 93
 		     }, 500, function(){
 
+		       // when done, add hash to url
+		       // (default click behaviour)
+		       window.location.hash = hash;
+		     });
+		this.blur();
+		return false;
+	});
+	$('.scroll-down-arrow').click(function(e) {
+		// e.preventDefault();
+		$('html, body').animate({
+		       scrollTop: $('#productspecs').offset().top - 50
+		     }, 500, function(){
 		       // when done, add hash to url
 		       // (default click behaviour)
 		       window.location.hash = hash;
@@ -427,31 +447,6 @@ $(document).ready(function() {
 });
 
 /* =====================================================================
-SLIDER HEIGHT RESIZE
-===================================================================== */
-$(document).ready(function() {
-	"use strict";
-
-	//reset header height
-	function resetHeight() {
-		var windowHeight = $(window).height();
-		windowHeight = (windowHeight > 768) ? windowHeight : 768;
-		$('.slider-home').css({height : windowHeight+'px'});
-	}
-
-	//on window resize reset slider height
-	$(window).resize(function() {
-		resetHeight();
-	});
-
-	/**
-	* Init
-	*/
-	// resetHeight();
-
-});
-
-/* =====================================================================
 PRODUCT SPECS HTML5 VIDEO
 ===================================================================== */
 $(document).ready(function() {
@@ -535,16 +530,19 @@ $(document).ready(function() {
 LEARN MORE ON THE PRODUCT
 ===================================================================== */
 $(document).ready(function() {
-	$("#how-customers-use").owlCarousel({
-		items: 1,
-		nav: true,
-		navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
-		dots: true,
-		autoplay: true,
-		autoplayTimeout: 10000,
-		autoplayHoverPause: true,
-		loop: true,
-	});
+	// && !window.mobileAndTabletcheck()
+	if($(document).width() >= 768) {
+		$("#how-customers-use").owlCarousel({
+			items: 1,
+			nav: true,
+			navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
+			dots: true,
+			autoplay: true,
+			autoplayTimeout: 10000,
+			autoplayHoverPause: true,
+			loop: true,
+		});
+	}
 });
 /* =====================================================================
 AWARDS SLIDER

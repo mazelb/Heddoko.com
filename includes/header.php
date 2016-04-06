@@ -25,31 +25,6 @@ switch($fileName) {
 ?>
     <!-- Header -->
     <header itemscope itemtype="http://schema.org/WPHeader">
-        <!--Facebook like button -->
-        <div id="fb-root"></div>
-        <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-        </script>
-        <svg height="0" width="0">
-            <filter id="fb-filter">
-                <feColorMatrix type="hueRotate" values="292" />
-                <feColorMatrix type="saturate" values="5.5" />
-            </filter>
-        </svg>
-        <style>
-        .fb-like {
-            -webkit-filter: url(#fb-filter);
-            filter: url(#fb-filter);
-        }
-        </style>
-        <!-- end styling for facebook like button-->
         <nav class="navbar navbar-custom navbar-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">

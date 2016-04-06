@@ -15,30 +15,32 @@
         <img src="/images/index/smart-garment-and-app.jpg" alt="Heddoko">
     </div>
     <section class="feature-group">
-        <div class="row">
-            <div class="feature col-xs-6 col-sm-2" data-animated="0">
-                <div class="has-icon-img" style="background-image: url(images/icons/icon-dark-sensors-basic.svg)" title="Integrated sensors"></div>
-                <h4>Integrated<br> sensors</h4>
-            </div>
-            <div class="feature col-xs-6 col-sm-2" data-animated="0">
-                <div class="has-icon-img" style="background-image: url(images/icons/icon-dark-capture-basic.svg)" title="Full-body data capture"></div>
-                <h4>Full-body<br> data capture</h4>
-            </div>
-            <div class="feature col-xs-6 col-sm-2" data-animated="0">
-                <div class="has-icon-img" style="background-image: url(images/icons/icon-dark-bluetooth-basic.svg)" title="Resists tough training"></div>
-                <h4>Wireless and<br> camera-less</h4>
-            </div>
-            <div class="feature col-xs-6 col-sm-2" data-animated="0">
-                <div class="has-icon-img" style="background-image: url(images/icons/icon-dark-forceapplied-basic.svg)" title="Live feedback"></div>
-                <h4>Live feedback</h4>
-            </div>
-            <div class="feature col-xs-6 col-sm-2" data-animated="0">
-                <div class="has-icon-img" style="background-image: url(images/icons/icon-dark-recording-mov-basic.svg)" title="Movement Recording"></div>
-                <h4>Movement<br> Recording</h4>
-            </div>
-            <div class="feature col-xs-6 col-sm-2" data-animated="0">
-                <div class="has-icon-img" style="background-image: url(images/icons/icon-injury-basic.svg)" title="Complete injury profile"></div>
-                <h4>Movement<br> Analysis</h4>
+        <div class="container">
+            <div class="row">
+                <div class="feature col-xs-6 col-sm-2" data-animated="0">
+                    <div class="has-icon-img" style="background-image: url(images/icons/icon-dark-sensors-basic.svg)" title="Integrated sensors"></div>
+                    <h4>Integrated<br> sensors</h4>
+                </div>
+                <div class="feature col-xs-6 col-sm-2" data-animated="0">
+                    <div class="has-icon-img" style="background-image: url(images/icons/icon-dark-capture-basic.svg)" title="Full-body data capture"></div>
+                    <h4>Full-body<br> data capture</h4>
+                </div>
+                <div class="feature col-xs-6 col-sm-2" data-animated="0">
+                    <div class="has-icon-img" style="background-image: url(images/icons/icon-dark-bluetooth-basic.svg)" title="Resists tough training"></div>
+                    <h4>Wireless and<br> camera-less</h4>
+                </div>
+                <div class="feature col-xs-6 col-sm-2" data-animated="0">
+                    <div class="has-icon-img" style="background-image: url(images/icons/icon-dark-forceapplied-basic.svg)" title="Live feedback"></div>
+                    <h4>Live feedback</h4>
+                </div>
+                <div class="feature col-xs-6 col-sm-2" data-animated="0">
+                    <div class="has-icon-img" style="background-image: url(images/icons/icon-dark-recording-mov-basic.svg)" title="Movement Recording"></div>
+                    <h4>Movement<br> Recording</h4>
+                </div>
+                <div class="feature col-xs-6 col-sm-2" data-animated="0">
+                    <div class="has-icon-img" style="background-image: url(images/icons/icon-injury-basic.svg)" title="Complete injury profile"></div>
+                    <h4>Movement<br> Analysis</h4>
+                </div>
             </div>
         </div>
     </section>

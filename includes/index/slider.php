@@ -5,10 +5,12 @@
             <a href="/project" class="btn btn-default-outline">Start Your Project</a>
         </div>
     </div>
-    <div class="scroll-container">
+    <div class="scroll-container hidden-xs">
         <div class="col-md-12">
             <a href="#productspecs" class="scroll-page"><span>What We Do</span></a>
         </div>
+    </div>
+    <div class="scroll-down-arrow hidden-lg hidden-md hidden-sm visible-xs-block">
     </div>
 </section>
 <div id="modal">
