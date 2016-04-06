@@ -541,7 +541,6 @@ $(document).ready(function() {
 		navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
 		dots: true,
 		autoplay: true,
-		rtl:true,
 		autoplayTimeout: 10000,
 		autoplayHoverPause: true,
 		loop: true,

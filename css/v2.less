@@ -87,6 +87,7 @@ header {
     width: 200px;
     height: 100px;
     margin-left: -100px;
+    text-align: center;
 }
 
 .scroll-page {
@@ -222,7 +223,10 @@ form {
         min-height: 1000px;
 
         .container > .fitbox {
-            padding-top: 45%;
+            position: absolute;
+            height: 352px;
+            top: 50%;
+            margin-top: -352px/2;
         }
 
         .btn-default-outline {
@@ -236,6 +240,7 @@ form {
 
     .slider-home .container .fitbox h1 {
         font-size: 64px !important;
+        padding: 0 5%;
         line-height: 1;
 
         span {
@@ -1174,7 +1179,7 @@ form {
 .template-about {
     #fworks .container .row > div {
         .icon { border-radius: 0; margin-bottom: 15px; }
-        h4 { 
+        h4 {
             text-transform: uppercase;
             font-size: 16px;
             font-weight: 600;
@@ -1230,7 +1235,7 @@ form {
             text-align: center;
             margin-bottom: 20px;
         }
-        
+
         p {
             font-size: 24px;
             text-transform: uppercase;
@@ -1269,7 +1274,7 @@ form {
                 background-color: transparent;
             }
         }
-        
+
         .container .row > div p { line-height: 28px; }
 
         em {

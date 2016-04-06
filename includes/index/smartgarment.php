@@ -4,14 +4,14 @@
     <section class="smart-garment-app h-smart-garment">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-md-offset-6 col-xs-12">
-                    <h1 data-animated="0">Smart Garment &amp; App</h1>
+                <div class="col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 col-xs-12">
+                    <h1 data-animated="0">Smart Garment + App</h1>
                     <p data-animated="0">We measure human movement objectively, and turn it into real‐time feedback that helps reduce risk of injury. Our solution brings together a featherweight compression suit that fits like a second skin, small scale sensors that track your movement, and an application that models those movements in 3D and provides actionable insights.</p>
                     <a itemprop="url" href="/ergonomics" class="btn btn-default" id="index_pg_mobile_learnmore_btn" data-animated="0">Learn more</a>
                 </div>
             </div>
     </section>
-    <div class="mobile-prod-image hidden-lg hidden-md visible-sm-block">
+    <div class="mobile-prod-image hidden-lg hidden-md hidden-sm visible-sm-block">
         <img src="/images/index/smart-garment-and-app.jpg" alt="Heddoko">
     </div>
     <section class="feature-group">
@@ -42,13 +42,13 @@
             </div>
         </div>
     </section>
-    <div class="mobile-prod-image hidden-lg hidden-md visible-sm-block">
+    <div class="mobile-prod-image hidden-lg hidden-md hidden-sm visible-sm-block">
         <img src="/images/index/bg_home_2.jpg" alt="Heddoko">
     </div>
     <section class="smart-garment-app h-smart-app">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12 col-xs-12">
                     <h1 data-animated="0"><span>evaluation</span><br>intervention<br>prevention<br>rehabilitation</h1>
                     <a itemprop="url" href="/ergonomics" class="btn btn-default" id="index_pg_mobile_learnmore_btn" data-animated="0">Learn more</a>
                 </div>

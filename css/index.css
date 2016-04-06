@@ -93,12 +93,6 @@ SLIDER
 	margin-bottom: 20px;
 }
 
-.slider-home .container > .fitbox {
-	position:relative;
-	padding-top:50%;
-}
-
-
 /* ===== MEDIA QUERIES ===== */
 @media (min-width: 1px) and (max-width: 767px) {
 	.slider-home .container > div .play {
@@ -1036,7 +1030,6 @@ PARTNERS
 #partners .container .row > div a {
 	display: block;
 	margin: 15px auto;
-	width: 50%;
 }
 
 #partners .container .row > div a:hover {
@@ -1049,13 +1042,6 @@ PARTNERS
     background-size: contain;
     width: 100%;
     padding-top: 100%;
-}
-
-/* ===== MEDIA QUERIES ===== */
-@media (min-width: 768px) {
-	#partners .container .row > div a {
-		width: 100%;
-	}
 }
 
 /* =====================================================================
@@ -1093,7 +1079,6 @@ SUBSCRIBE
 	font-size: 24px;
 	text-transform: uppercase;
 	line-height: 36px;
-	margin: 0;
 	text-align: center;
 }
 
