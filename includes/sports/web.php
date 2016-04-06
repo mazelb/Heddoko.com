@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-md-12 web-bg hidden-xs"></div>
+            <div class="col-xs-12 col-md-12 col-lg-8 col-lg-offset-2 web-bg hidden-xs"></div>
             <div class="visible-xs-block hidden-sm hidden-md hidden-lg smart-app-image">
                 <img src="/images/product/heddoko_app_screen_movement-2.png" alt="">
             </div>

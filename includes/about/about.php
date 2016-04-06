@@ -14,7 +14,7 @@
 					<img src="../images/icons/icon_brush.svg" class="green">
 					<img src="../images/icons/icon_brush_green.svg">
 				</span>
-				<h4>Multi-disciplinary</h4>
+				<h4>Multidisciplinary</h4>
 				<p>We are a team of engineers, data scientists, biomechanists, designers, marketers and senior executives.</p>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" data-animated="0">

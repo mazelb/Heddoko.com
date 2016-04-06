@@ -141,7 +141,7 @@
                                 <div class="team-overlay">
                                     <div class="social">
                                         <ul data-animated="0">
-                                            <li><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a target="_blank" href="https://ca.linkedin.com/in/louis-roux-b500906a"><i class="fa fa-linkedin"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -160,7 +160,7 @@
                                 <div class="team-overlay">
                                     <div class="social">
                                         <ul data-animated="0">
-                                            <li><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a target="_blank" href="https://ir.linkedin.com/in/fatemeh-aghazadeh-7873ab75"><i class="fa fa-linkedin"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -184,7 +184,7 @@
                                 <div class="team-overlay">
                                     <div class="social">
                                         <ul data-animated="0">
-                                            <li><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a target="_blank" href="https://ca.linkedin.com/in/sean-cloghesy-389bb815"><i class="fa fa-linkedin"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -203,7 +203,7 @@
                                 <div class="team-overlay">
                                     <div class="social">
                                         <ul data-animated="0">
-                                            <li><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a target="_blank" href="https://ca.linkedin.com/in/hridaymehta"><i class="fa fa-linkedin"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -222,7 +222,7 @@
                                 <div class="team-overlay">
                                     <div class="social">
                                         <ul data-animated="0">
-                                            <li><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a target="_blank" href="https://ca.linkedin.com/in/mohammedhaider"><i class="fa fa-linkedin"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>

@@ -17,7 +17,7 @@
                         <a id="footer_menu_about" href="/about">About us</a>
                     </li>
                     <li>
-                        <a href="/quote">Request a Quote</a>
+                        <a href="/project">Start Your Project</a>
                     </li>
                     <li>
                         <a id="footer_menu_signup" href="/signup">Sign up</a>

@@ -116,20 +116,21 @@ $(document).ready(function() {
   var owl = $("#testimonial-slider");
 
   $("#testimonial-slider").owlCarousel({
-    stopOnHover : true,
-    navigation:false,
-    pagination: false,
-    paginationSpeed : 1000,
-    goToFirstSpeed : 2000,
-    singleItem : true,
-    autoHeight : true
+  	items: 1,
+  	nav: false,
+  	navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
+  	dots: true,
+  	autoplay: true,
+  	autoplayTimeout: 10000,
+  	autoplayHoverPause: true,
+  	loop: true,
   });
 
   $("#testimonials .next").click(function(){
-    owl.trigger('owl.next');
+    owl.trigger('next.owl.carousel');
   })
   $("#testimonials .prev").click(function(){
-    owl.trigger('owl.prev');
+    owl.trigger('prev.owl.carousel');
   })
 });
 

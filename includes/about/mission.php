@@ -12,7 +12,7 @@
                     <img src="../images/icons/icon_integrity_green.png" class="green">
                 </div>
                 <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-                    <h4>Respect &amp; Integity</h4>
+                    <h4>Respect &amp; Integrity</h4>
                     <p>We foster a culture of treating people well and are fair, ethical, and honest.</p>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                     <h4>Meaningful innovation</h4>
-                    <p>We invent useful and significant solutions that help make people’s lives better.</p>
+                    <p class="margin-bottom-0">We invent useful and significant solutions that help make people’s lives better.</p>
                 </div>
             </div>
         </div>

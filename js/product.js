@@ -8,13 +8,6 @@ window.mobileAndTabletcheck = function() {
 }
 
 /* =====================================================================
-HTML VIDEO
-===================================================================== */
-function playVideo(element) {
-	$(element)[0].play();
-}
-
-/* =====================================================================
 MOBILE APP ANIMATION
 ===================================================================== */
 $(document).ready(function() {
@@ -24,17 +17,6 @@ $(document).ready(function() {
 
 		var videoContainerWidth = $('#mobileapp .image-animation').width();
 		$('#mobileapp .image-animation .image-videos').css('width', videoContainerWidth*videoFiles.length+'px');
-
-		//for one video
-		var mobilePairVideo = $('<video loop muted></video>')
-		.attr('src', videoFiles[0])
-		.on('canplaythrough', function(){
-			$('#mobileapp .image-animation .image-videos').fadeIn();
-			playVideo('#mobileapp .image-animation .image-videos video');
-		})
-		.load();
-
-		$('#mobileapp .image-animation .image-videos').append(mobilePairVideo);
 
 		//for multiple videos
 		// loadVideos(videoFiles);
@@ -133,17 +115,13 @@ $(document).ready(function() {
 	        })
 	        .width(length)
 	        .offset({left: x1, top: y1});
-
-	      console.log(line);
 	    return line;
 	}
 
 	function drawLines() {
 		$('.underline').each(function(i, obj) {
-			console.log(obj);
 			var position = $(obj).offset();
 			var plus = $(obj).parent().parent().find('.circle').offset();
-			console.log(position, plus);
 			var x1 = plus.left + 20;
 			var y1 = plus.top + 20;
 			if (!$(obj).hasClass('right')) {

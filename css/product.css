@@ -152,7 +152,6 @@ HOW IT WORKS
 }
 
 #howitworks .select .image img:first-child {
-	position: absolute;
 	opacity: 0;
     -webkit-transition: all 250ms ease-out 0s;
     -moz-transition: all 250ms ease-out 0s;

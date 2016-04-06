@@ -15,8 +15,6 @@ require realpath(__DIR__) .'/../../php/quote.php';
                     <br><br>
                     Once our sales rep gets in touch with you, we can get you started with a Demo Package. Each Demo Package contains a Quick Start guide, smart compression suit, motion tracking sensors, battery pack, USB charger and cable, and demo software.
                     <br><br>
-                    Each Demo kit contains a Quick Start Guide, smart compression suit, battery pack, motion‐tracking sensors, and USB charger and cable. Please fill out the form below to get a quote – our sales team will contact you shortly.
-                    <br><br>
                     (Note: Due to demand, current lead time for shipping is 4‐6 weeks)
                     </p>
                     <form class="form" name="quotation" action="/php/quote.php" method="post">

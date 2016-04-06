@@ -29,7 +29,7 @@
 
 <?php include('includes/index/partners.php'); ?>
 
-<?php include('includes/index/subscribe.php'); ?>
+<?php include('includes/index/divider.php'); ?>
 
 <?php include('includes/footer.php'); ?>
 

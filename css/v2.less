@@ -232,10 +232,11 @@ form {
         background-image: url(../images/index/bg_home_2.jpg);
         background-color: #46474d;
         height: 100%;
-
+        min-height: 768px;
         .container > .fitbox {
-            padding-top: 50%;
-            margin-top: -352px/2;
+            // height: 392px;
+            padding-top: 200px;
+            // margin-top: -352px/2;
         }
 
         .btn-default-outline {
@@ -386,6 +387,9 @@ form {
 .template-index {
     #productbenefits {
         padding-bottom: 0;
+        .container {
+            overflow: hidden;
+        }
         .container .image {
             background-image: url(../images/index/heddoko-product-use.png);
             background-size: contain;
@@ -649,12 +653,17 @@ form {
             height: 93px;
             width: 93px;
             border: 1px solid rgba(0,0,0,.1);
+            text-align: center;
 
             &:hover {
                 background-color: #3bd6b2;
             }
 
-            img:first-child { opacity: 1; }
+            img:first-child {
+                opacity: 1;
+                height: 93px;
+                width: 93px;
+            }
         }
 
         .step-text { height: 93px; }
@@ -675,21 +684,22 @@ form {
             }
             .apppair {
                 background-image: url(../images/product/heddoko_app_screen_pair.png);
+                background-position: center bottom;
             }
             .appcapture {
-                background-image: url(../images/product/heddoko_app_screen_movement-3.1.png);
-
+                background-image: url(../images/product/heddoko_app_screen_movement-3.png);
+                background-position: center bottom;
             }
             .appadjustments {
-                background-image: url(../images/product/heddoko_app_screen_movement-3.png);
+                background-image: url(../images/product/heddoko_app_screen_movement-3.1.png);
+                background-position: center bottom;
             }
 
             .apppair, .appcapture, .appadjustments {
-                width: 120%;
-                margin-left: -40px;
+                width: 100%;
                 margin-top: 50px;
+                overflow: hidden;
                 background-position: center center;
-
             }
         }
 
@@ -700,32 +710,21 @@ form {
 
     #garment {
         margin-top: 0;
-        background: #bdbec2 url(/images/product/bg_garment_back_2.jpg);
+        background: #bdbec2 url(/images/product/bg_garment_back.jpg);
         background-size: 1600px 850px;
         background-repeat: no-repeat;
         background-position: center center;
         height: 850px;
         position: relative;
-
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            background: #bdbec2 url(/images/product/bg_garment_back.jpg);
-            z-index: 999;
-            opacity: 0.3;
-        }
-
         .line{
           transform-origin: 0 100%;
           height: 1px;
           background: #595a5c;
           z-index: 10;
+          display: none;
         }
-
-
-
         .circle {
+            display: none;
             background: #3bbd9f;
             width: 40px;
             height: 40px;
@@ -793,6 +792,7 @@ form {
         }
 
         .underline {
+            display: none;
             height: 4px;
             position: absolute;
             background: #595a5c;
@@ -838,37 +838,37 @@ form {
         .feature-integrated-sensors {
             position: absolute;
             top: 600px;
-            left: 39px;
+            left: 24px;
             text-align: right;
         }
         .feature-data-capture {
             position: absolute;
             top: 304px;
-            left: 87px;
+            left: 73px;
             text-align: right;
         }
         .feature-moisture-control {
             position: absolute;
             top: 150px;
-            left: 263px;
+            left: 249px;
             text-align: right;
         }
         .feature-breathable {
             position: absolute;
             top: 154px;
-            right: 120px;
+            right: 105px;
             text-align: lefts;
         }
         .feature-washable {
             position: absolute;
             top: 498px;
-            right: 54px;
+            right: 40px;
             text-align: lefts;
         }
         .feature-durable {
             position: absolute;
             top: 664px;
-            right: 65px;
+            right: 50px;
             text-align: lefts;
         }
     }
@@ -879,10 +879,11 @@ form {
 
         .web-bg {
             background: transparent url(/images/product/heddoko_app_screen_movement-2.png);
-            background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
             position: relative;
+            min-height: 600px;
+            background-size: 100%;
         }
 
         h2 {
@@ -1117,6 +1118,9 @@ form {
 }
 .centered {
     text-align: center;
+}
+.margin-bottom-0 {
+    margin-bottom: 0;
 }
 
 

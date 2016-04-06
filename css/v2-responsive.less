@@ -3,9 +3,39 @@
         margin-top: 45px;
     }
 }
+@media (max-width: 1199px) {
+    .template-product #garment, .template-about #garment {
+        background: url(/images/product/bg_garment_back_2.jpg);
+        .smart-garment-features {
+            height: 304px;
+            position: absolute;
+
+            .feature {
+                position: relative;
+                top: inherit;
+                left: inherit;
+                right: inherit;
+                height: 30px;
+                padding-left: 10px;
+                clear: both;
+                width: 100%;
+                span {
+                    display: block;
+                }
+                .underline, .circle{
+                    display: none;
+                }
+            }
+        }
+    }
+}
 @media (min-width: 981px) and (max-width: 1199px){
+    .template-index #divider, .template-product #divider, .template-about #divider {
+        // background: url(../images/product/bg_garment_suit.jpg) no-repeat center -195px;
+        background-position: 0 -80px;
+    }
     .template-index .slider-home .container .fitbox h1 {
-        font-size: 56px !important;
+        font-size: 55px !important;
     }
     .template-index #productbenefits.sports {
         // background: url(../images/index/heddoko-product-use-2.jpg);
@@ -138,6 +168,10 @@
     .template-index .slider-home .container .fitbox h1 span {
         font-size: 31px;
     }
+    .template-index #divider, .template-product #divider, .template-about #divider {
+        // background: url(../images/product/bg_garment_suit.jpg) no-repeat center -195px;
+        background-position: 0 -80px;
+    }
 }
 @media (max-width: 767px) and (min-width: 1px) {
     header {
@@ -269,6 +303,9 @@
             font-size: 40px;
             text-align: center;
         }
+        .accent-top-middle {
+            font-size: 36px;
+        }
         #howitworks {
             .howitworks-steps {
                 margin-bottom: 0;
@@ -282,6 +319,7 @@
             }
         }
         #garment {
+            background: url(/images/product/bg_garment_back_2.jpg);
             background-position: center top;
             .smart-garment-features {
                 height: 304px;
@@ -398,6 +436,33 @@
     .template-index .slider-home .container>.fitbox {
         padding-top: 0;
     }
+    .mission .container .row > div > div > p {
+        &.margin-bottom-0 {
+            margin-bottom: 0;
+        }
+    }
+    .template-about #team h2,
+    .template-about #contact h2 {
+        font-size: 36px;
+    }
+    .template-about #jointeam h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .skills-wrap ul li {
+        height: 200px;
+        h5 {
+            margin-top: 10px;
+        }
+    }
+    #testimonials .container .row > div img {
+        width: 65% !important;
+        margin: 0 auto !important;
+    }
+    #testimonials .container .row > div a.prev.go-prev,
+    #testimonials .container .row > div a.next.go-next {
+        display: none;
+    }
 }
 @media (min-width: 568px) and (max-width: 667px){
     .scroll-container, .scroll-down-arrow {
@@ -425,6 +490,15 @@
     }
     .smart-garment-app .container {
         min-height: inherit;
+    }
+    .template-product #howitworks .preview .garment, .template-about #howitworks .preview .garment {
+        background-position: center center;
+    }
+    .template-product #howitworks p, .template-about #howitworks p {
+        text-align: center;
+    }
+    .template-index #web .container .row>.content .col-xs-12 .col-img .has-icon-img, .template-product #web .container .row>.content .col-xs-12 .col-img .has-icon-img, .template-about #web .container .row>.content .col-xs-12 .col-img .has-icon-img {
+        width: 65%;
     }
 }
 @media (max-width: 375px) {
