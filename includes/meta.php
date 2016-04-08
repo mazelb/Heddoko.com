@@ -15,50 +15,48 @@ if (count($dir) > 1)
 	switch($dir[1])
     {
 		case 'product':
-			$title = '| Learn about our motion capture suit';
-			$description = 'HEDDOKO is a smart compression garment that uses textile embedded sensors to continuously track your body movement and give you live 3D coaching.';
+			$title = '| Real-time biomechanics for ergonomics and sports';
+			$description = 'A wearable motion capture system that captures and analyzes human movement data to reduce the risk of injury and improve performance.';
 		break;
 
 		case 'about':
-			$title = '| Motion Capture and Tracking';
+			$title = '| Real-time biomechanics for ergonomics and sports';
 			// $description = 'Who we are: makers of smart clothing';
-            $description = 'Heddoko is a wearable technology startup that was born a year ago '.
-                'from an idea at the precise intersection of sports, technology, and passion.';
+            $description = 'A wearable motion capture system that captures and analyzes human movement data to reduce the risk of injury and improve performance.';
 		break;
 
 		case 'press':
-			$title = '| Press';
-			$description = 'Heddoko has received a lot of buzz - here is the latest!';
+			$title = '| Real-time biomechanics for ergonomics and sports';
+			$description = 'A wearable motion capture system that captures and analyzes human movement data to reduce the risk of injury and improve performance.';
 		break;
 
 		case 'faq':
-			$title = '| FAQ';
+			$title = '| Real-time biomechanics for ergonomics and sports';
 			// $description = 'If you have questions regarding our smart compression suit or '.
             //     'athelete management system and how they works, don\'t hesitate to ask!';
-            $description = 'Frequently Asked Questions regarding our motion capture system and how it works.';
+            $description = 'A wearable motion capture system that captures and analyzes human movement data to reduce the risk of injury and improve performance.';
 		break;
 
 		case 'signup':
-			$title = '| Sign up to learn about Heddoko';
-			$description = 'Subscribe to our mailing list to keep in touch and receive the latest news on Heddoko and our motion capture technology!';
+			$title = '| Real-time biomechanics for ergonomics and sports';
+			$description = 'A wearable motion capture system that captures and analyzes human movement data to reduce the risk of injury and improve performance.';
 		break;
 
 		case '404':
 			$title = '| Page not found.';
-			$description = 'The First Smart Compression Suit That Tracks Full-Body Movement In 3D';
+			$description = 'A wearable motion capture system that captures and analyzes human movement data to reduce the risk of injury and improve performance.';
 		break;
 
         default:
             $title = '';
-            $description = 'The First Smart Compression Suit That Tracks Full-Body Movement In 3D';
+            $description = 'A wearable motion capture system that captures and analyzes human movement data to reduce the risk of injury and improve performance.';
 	}
 	$dir = '/../';
 } else {
-	$title = '| Track your movement in 3D';
+	$title = '| Real-time biomechanics for ergonomics and sports';
     // $description =  'Heddoko empowers perfection in human movement. The only fitness wearable '.
     //                 'technology to provide real-time 3D corrective feedback.';
-    $description =  'Heddoko is the world\'s first smart compression suit that tracks full-body '.
-                    'movement in 3D and gives you live coaching feedback.';
+    $description =  'A wearable motion capture system that captures and analyzes human movement data to reduce the risk of injury and improve performance.';
 	$dir = '/';
 } ?>
 <!-- Meta -->
