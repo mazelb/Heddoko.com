@@ -75,7 +75,7 @@
                 n.parentNode.insertBefore(e, n)
             };
             analytics.SNIPPET_VERSION = "3.1.0";
-            analytics.load("BiBS6uONJNKpyqmAEJkkf3BSHnYRzuix");
+            analytics.load("OGpIAlcR1hwRjtFcz2iB94CgPJI9xErY");
             analytics.page()
         }
 }();
