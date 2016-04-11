@@ -16,7 +16,7 @@
             </div>
 
             <div class="col-xs-6 col-sm-3 col-md-2">
-                <a href="http://ubisoft.com/" target="_blank" id="index_pg_partners_UBI_btn" class="partner-link">
+                <a href="http://montreal.ubisoft.com/" target="_blank" id="index_pg_partners_UBI_btn" class="partner-link">
                     <div class="has-icon-img" style="background-image: url(images/index/logo_ubisoft.svg)" data-animated="0"></div>
                 </a>
             </div>
