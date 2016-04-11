@@ -17,10 +17,10 @@
                         <a id="footer_menu_about" href="/about">About us</a>
                     </li>
                     <li>
-                        <a href="/project">Start Your Project</a>
+                        <a href="/project#fromFooter">Start Your Project</a>
                     </li>
                     <li>
-                        <a id="footer_menu_signup" href="/signup">Sign up</a>
+                        <a id="footer_menu_signup" href="/signup#fromFooter">Sign up</a>
                     </li>
                     <li>
                         <a id="footer_menu_blog" href="http://blog.heddoko.com" target="_blank">Blog</a>
@@ -76,6 +76,7 @@
             };
             analytics.SNIPPET_VERSION = "3.1.0";
             analytics.load("OGpIAlcR1hwRjtFcz2iB94CgPJI9xErY");
+            // analytics.load("BiBS6uONJNKpyqmAEJkkf3BSHnYRzuix");
             analytics.page()
         }
 }();

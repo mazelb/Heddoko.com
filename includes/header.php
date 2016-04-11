@@ -42,8 +42,8 @@ switch($fileName) {
                         <li class="<?php echo $links[1]; ?>"><a id="nav_menu_ergonomics" href="/ergonomics">Ergonomics <span></span></a></li>
                         <li class="<?php echo $links[2]; ?>"><a id="nav_menu_sports" href="/sports">Sports <span></span></a></li>
                         <li class="<?php echo $links[3]; ?>"><a id="nav_menu_about" href="/about" role="button">About Us <span></span></a></li>
-                        <li class="<?php echo $links[5]; ?>"><a id="nav_menu_quote" class="btn btn-sm" href="/project">Start Your Project</a></li>
-                        <li class="<?php echo $links[4]; ?> light-button"><a id="nav_menu_signup" href="/signup" role="button">Sign Up</a></li>
+                        <li class="<?php echo $links[5]; ?>"><a id="nav_menu_quote" class="btn btn-sm" href="/project#fromNavbar">Start Your Project</a></li>
+                        <li class="<?php echo $links[4]; ?> light-button"><a id="nav_menu_signup" href="/signup#fromNavbar" role="button">Sign Up</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

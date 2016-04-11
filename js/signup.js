@@ -23,6 +23,13 @@ $(document).ready(function() {
 	    allowClear: false,
 	    width: "resolve"
 	});
+	$('#mce-MMERGE3').on("select2:select", function(e) {
+	    //Do stuff
+	    analytics.track("signupform field filled", {
+	        name: "profession",
+	        value: $(this).val()
+	    });
+	});
 
 });
 
@@ -38,6 +45,17 @@ function validateEmailFunc(email) {
 FORM LIGHTBOX
 ===================================================================== */
 $(document).ready(function(){
+
+	$(':input').blur(function() {
+	    if ($(this).val()) {
+	        var input_name = $(this).attr('name');
+	        analytics.track("signupform field filled", {
+	            name: input_name,
+	            value: $(this).val()
+	        });
+	    }
+	});
+
 	$('#mc-embedded-subscribe-form').submit(function(e){
 		e.preventDefault();
 		$('#mc-embedded-subscribe-form input').addClass('disabled').attr('disabled', 'disabled');
@@ -76,6 +94,15 @@ $(document).ready(function(){
 			console.log($('#mce-FNAME').val());
 			console.log($('#mce-LNAME').val());
 			console.log($('#mce-MMERGE3').val());
+			var name = $('#mce-FNAME').val() + " " + $('#mce-LNAME').val();
+			var email = $('#mce-EMAIL').val();
+			var profession = $('#mce-MMERGE3').val();
+			// If #from___ anchor is set, track it!
+			if(window.location.hash) {
+				var hash = window.location.hash;
+				var referring_btn = hash.split("#from")[1];
+			}
+
 			$('.ajax').show();
 
 			$.ajax({
@@ -112,6 +139,17 @@ $(document).ready(function(){
 
 						// ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'user_signed_up');
 						// mixpanel.track('user_signed_up');
+						analytics.identify({
+						    name: name,
+						    email: email,
+						    profession: profession,
+						});
+						analytics.track("Newsletter signup", {
+						    name: name,
+						    email: email,
+						    profession: profession,
+						    referring_btn: referring_btn
+						});
 		            }
 		        }
 		    });

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="content fitbox">
             <h1>Wearable motion capture for ergonomics and sports<span>An injury prevention solution with fully integrated <br> sensors that capture your every move in 3D.</span></h1>
-            <a href="/project" class="btn btn-default-outline">Start Your Project</a>
+            <a href="/project#fromHomeHero" class="btn btn-default-outline">Start Your Project</a>
         </div>
     </div>
     <div class="scroll-container hidden-xs">

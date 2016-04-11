@@ -26,6 +26,15 @@ $(document).ready(function() {
 
     // Send a common pageview to GA from the English or French website.
     // ga('send', 'pageview', '/quotation-form-landed');
+    $(':input').blur(function() {
+        if ($(this).val()) {
+            var input_name = $(this).attr('name');
+            analytics.track("projectform field filled", {
+                name: input_name,
+                value: $(this).val()
+            });
+        }
+    });
 
     // Attach submit listener to form.
     $(document.quotation).on('submit', function(event) {
@@ -51,11 +60,19 @@ $(document).ready(function() {
         // Send virtual pageview & tracking event to GA.
         // ga('send', 'pageview', '/quotation-form-sending');
         // ga('send', 'event', 'RFQ', 'Submitted');
-
-        // Track event with Segment.io
-        analytics.track('RFQ Form submitted');
-
         // Format request data and send request.
+        var name = this.first_name.value + " " + this.last_name.value;
+        var email = this.email.value;
+        var organization = this.organization.value;
+        var title = this.title.value;
+        var website = this.website.value;
+        var application = this.application.value;
+        // If #from___ anchor is set, track it!
+        if(window.location.hash) {
+            var hash = window.location.hash;
+            var referring_btn = hash.split("#from")[1];
+        }
+
         $.ajax({
             type: 'POST',
             cache: false,
@@ -82,6 +99,26 @@ $(document).ready(function() {
                 }
 
                 else {
+                    // Track event with Segment.io
+                    analytics.identify({
+                        name: name,
+                        email: email,
+                        organization: organization,
+                        title: title,
+                        phone: phone,
+                        website: website,
+                        application: application
+                    });
+                    analytics.track("projectform submitted", {
+                        name: name,
+                        email: email,
+                        organization: organization,
+                        title: title,
+                        phone: phone,
+                        website: website,
+                        application: application,
+                        referring_btn: referring_btn
+                    });
                     $('.successmessage').show();
                     console.log(response.responseText);
 
