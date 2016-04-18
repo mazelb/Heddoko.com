@@ -184,13 +184,4 @@ $(document).ready(function(){
 		return false;
 	});
 
-	//signed up button
-	$('#mc-embedded-subscribe').click(function() {
-		// ga('send', 'event', 'button', 'click', 'sign_up_button_clicked');
-		mixpanel.identify($('#mce-EMAIL').val());
-		mixpanel.people.set({
-		    "$email": $('#mce-EMAIL').val()
-		});
-		// mixpanel.track('sign_up_button_clicked');
-	});
 });
