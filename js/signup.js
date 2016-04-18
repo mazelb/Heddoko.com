@@ -90,8 +90,16 @@ $(document).ready(function(){
 
 			// Split the name
 			var name = $('#mce-FNAME').val();
-			var first_name = name.substr(0, name.lastIndexOf(" "));
-			var last_name = name.substr(name.lastIndexOf(" "), name.length);
+			var pos_space = name.lastIndexOf(" ");
+			var first_name;
+			var last_name;
+			if (pos_space > 0) {
+				first_name = name.substr(0, name.lastIndexOf(" "));
+				last_name = name.substr(name.lastIndexOf(" "), name.length);
+			} else {
+				first_name = name;
+				last_name = "";
+			}
 			console.log("first_name", first_name);
 			console.log("last_name", last_name);
 
@@ -166,12 +174,8 @@ $(document).ready(function(){
 				$('#thankyoudiv').html('Please select a profession');
 			}
 
-			if(validateLastName) {
-				$('#thankyoudiv').html('Please enter a last name');
-			}
-
 			if(validateFullName) {
-				$('#thankyoudiv').html('Please enter a first name');
+				$('#thankyoudiv').html('Please enter your full name');
 			}
 
 			if(validateEmail) {
