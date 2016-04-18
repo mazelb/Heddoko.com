@@ -38,14 +38,14 @@ require realpath(__DIR__) .'/../../php/quote.php';
                             <textarea name="application" id="application" cols="30" rows="10" class="form-control" placeholder="Please share with us what you have in mind for the Heddoko solution."></textarea>
                         </div>
                         <!-- Phone number -->
-                        <div class="form-group">
+                        <div class="form-group hidden">
                             <input type="tel" class="form-control" name="phone" placeholder="Phone # (optional)">
                             <div class="error">
                                 Please enter a valid phone number.
                             </div>
                         </div>
                         <!-- Website -->
-                        <div class="form-group">
+                        <div class="form-group hidden">
                             <input type="text" class="form-control" name="website" value="" placeholder="Website (optional)">
                         </div>
                         <!-- Submit button -->
