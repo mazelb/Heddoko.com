@@ -18,13 +18,9 @@ require realpath(__DIR__) .'/../../php/quote.php';
                     (Note: Due to demand, current lead time for shipping is 4‐6 weeks)
                     </p>
                     <form class="form" name="quotation" action="/php/quote.php" method="post">
-                        <!-- First name -->
+                        <!-- Full name -->
                         <div class="form-group">
-                            <input type="text" class="form-control" name="first_name" placeholder="First Name" required>
-                        </div>
-                        <!-- Last name -->
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="last_name" placeholder="Last Name" required>
+                            <input type="text" class="form-control" name="full_name" placeholder="Full Name" pattern="[a-zA-Z]+[ ][a-zA-Z]+" required title="Please enter your full name.">
                         </div>
                         <!-- Email -->
                         <div class="form-group">

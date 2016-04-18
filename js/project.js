@@ -43,6 +43,13 @@ $(document).ready(function() {
         // Disable form fields.
         $(this).find('.form-control').prop('disabled', true);
 
+        // Split the name
+        var name = this.full_name.value;
+        var first_name = name.substr(0, name.lastIndexOf(" "));
+        var last_name = name.substr(name.lastIndexOf(" "), name.length);
+        console.log("first_name", first_name);
+        console.log("last_name", last_name);
+
         // Validate phone #.
         var phone = this.phone.value.replace(/([^0-9])/g, '');
         if (phone.length > 0 && phone.length < 6)
@@ -61,7 +68,6 @@ $(document).ready(function() {
         // ga('send', 'pageview', '/quotation-form-sending');
         // ga('send', 'event', 'RFQ', 'Submitted');
         // Format request data and send request.
-        var name = this.first_name.value + " " + this.last_name.value;
         var email = this.email.value;
         var organization = this.organization.value;
         var title = this.title.value;
@@ -78,8 +84,8 @@ $(document).ready(function() {
             cache: false,
             url: $(this).attr('action'),
             data: {
-                first_name: this.first_name.value,
-                last_name: this.last_name.value,
+                first_name: first_name,
+                last_name: last_name,
                 organization: this.organization.value,
                 title: this.title.value,
                 phone: this.phone.value,
