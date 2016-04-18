@@ -63,8 +63,7 @@ $(document).ready(function(){
 		$('#thankyoudiv').html('').hide();
 		$('.ajax').hide();
 
-		var validateFirstName = false;
-		var validateLastName = false;
+		var validateFullName = false;
 		var validateEmail = false;
 		var validateProfession = false;
 
@@ -74,27 +73,28 @@ $(document).ready(function(){
 		}
 
 		if($('#mce-FNAME').val() == '' || $('#mce-FNAME').val() == null || $('#mce-FNAME').val() == undefined) {
-			validateFirstName = true;
-		}
-
-		if($('#mce-LNAME').val() == '' || $('#mce-LNAME').val() == null || $('#mce-LNAME').val() == undefined) {
-			validateLastName = true;
+			validateFullName = true;
 		}
 
 		if($('#mce-MMERGE3').val() == '' || $('#mce-MMERGE3').val() == null || $('#mce-MMERGE3').val() == undefined) {
 			validateProfession = true;
 		}
 
-		if(!validateFirstName &&
-			!validateLastName &&
+		if(!validateFullName &&
 			!validateEmail &&
             !validateProfession) { //ALL GOOD
 
 			console.log($('#mce-EMAIL').val());
 			console.log($('#mce-FNAME').val());
-			console.log($('#mce-LNAME').val());
 			console.log($('#mce-MMERGE3').val());
-			var name = $('#mce-FNAME').val() + " " + $('#mce-LNAME').val();
+
+			// Split the name
+			var name = $('#mce-FNAME').val();
+			var first_name = name.substr(0, name.lastIndexOf(" "));
+			var last_name = name.substr(name.lastIndexOf(" "), name.length);
+			console.log("first_name", first_name);
+			console.log("last_name", last_name);
+
 			var email = $('#mce-EMAIL').val();
 			var profession = $('#mce-MMERGE3').val();
 			// If #from___ anchor is set, track it!
@@ -109,8 +109,8 @@ $(document).ready(function(){
 		        type: $('#mc-embedded-subscribe-form').attr('method'),
 		        url: $('#mc-embedded-subscribe-form').attr('action'),
 		        data: { EMAIL: $('#mce-EMAIL').val(),
-		        FNAME: $('#mce-FNAME').val(),
-		        LNAME: $('#mce-LNAME').val(),
+		        FNAME: first_name,
+		        LNAME: last_name,
 		        MMERGE3: $('#mce-MMERGE3').val() },
 		        cache       : false,
 		        dataType    : 'json',
@@ -170,7 +170,7 @@ $(document).ready(function(){
 				$('#thankyoudiv').html('Please enter a last name');
 			}
 
-			if(validateFirstName) {
+			if(validateFullName) {
 				$('#thankyoudiv').html('Please enter a first name');
 			}
 
