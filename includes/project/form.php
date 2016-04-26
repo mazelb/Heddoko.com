@@ -7,15 +7,23 @@ require realpath(__DIR__) .'/../../php/quote.php';
             <div class="row">
                 <div class="col-xs-12 col-md-12 col-mg-8 col-lg-8 col-mg-offset-2 col-lg-offset-2">
                     <h1 class="page-title">
-                        Work with Heddoko
-                        <span>Do you have a development project in mind?<br> Would you like to test our product?<br> Let us help you put your ideas in motion.</span>
+                        Want to try Heddoko?
+                        <span>Let us help you put your ideas in motion.</span>
                     </h1>
                     <p class="readable-column">
-                    Please describe your project in the form below – our sales team will contact you shortly.
-                    <br><br>
-                    Once our sales rep gets in touch with you, we can get you started with a Demo Package. Each Demo Package contains a Quick Start guide, smart compression suit, motion tracking sensors, battery pack, USB charger and cable, and demo software.
-                    <br><br>
-                    (Note: Due to demand, current lead time for shipping is 4‐6 weeks)
+                        Please describe your project in the form below. We'll get in touch with you and get you started with a Demo Package.
+                        <br><br>
+                        <div class="quick-start">
+                            <span>Demo Package includes</span>
+                                <ul class="quick-start-list">
+                                    <li>Quick Start guide</li>
+                                    <li>Smart compression suit</li>
+                                    <li>Motion tracking sensors</li>
+                                    <li>Battery pack</li>
+                                    <li>USB charger cable</li>
+                                    <li>Demo software</li>
+                                </ul>
+                        </div>
                     </p>
                     <form class="form" name="quotation" action="/php/quote.php" method="post">
                         <!-- Full name -->
