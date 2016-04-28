@@ -181,6 +181,19 @@ class Quote
             return static::abort('Could not update the # of units', 201);
         }
 
+        // Add the application as a custom field
+        $endpoint = '/v2.2/Leads/'. $lead->LEAD_ID .'/CustomFields';
+        $data =
+        [
+            'CUSTOM_FIELD_ID' => 'LEAD_FIELD_2',
+            'FIELD_VALUE' => (string) strip_tags(trim($_POST['application'])),
+            'STRING_VALUE' => (string) strip_tags(trim($_POST['application']))
+        ];
+
+        if (!$response = static::makeRequest('PUT', $endpoint, $data)) {
+            return static::abort('Could not update the # of units', 201);
+        }
+
         // Finish the request.
         return static::send('Lead created.', 201);
     }
