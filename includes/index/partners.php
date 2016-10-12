@@ -35,7 +35,7 @@
         </div>
 
         <div class="row">
-            <div class="col-xs-6 col-sm-3 col-md-2 col-md-offset-2">
+            <div class="col-xs-6 col-sm-3 col-md-2 col-md-offset-1">
                 <a href="http://d3center.ca/" target="_blank" id="index_pg_partners_D3_btn" class="partner-link">
                     <div class="has-icon-img" style="background-image: url(images/index/logo_district3.svg)" data-animated="0"></div>
                 </a>
@@ -58,6 +58,12 @@
                     <div class="has-icon-img" style="background-image: url(images/index/logo_nod.svg)" data-animated="0"></div>
                 </a>
             </div>
+			
+			<div class="col-xs-6 col-sm-3 col-md-2">
+				<a href="http://fi.co/?target=montreal" target="_blank" id="index_pg_partners_FI_btn" class="partner-link">
+					<div class="has-icon-img" style="background-image: url(images/index/logo_founderInstitute.svg)" data-animated="0"></div>
+				</a>
+			</div>			
         </div>
 	</div>
 </section>
