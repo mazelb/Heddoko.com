@@ -140,7 +140,7 @@ GOOGLE MAP
 $(document).ready(function(){
   "use strict";
 	$('#map_addresses').gMap({
-		address: "1515 Rue Ste-Catherine O, Montréal, QC",
+		address: "6750 Avenue de l'Esplanade, Montréal, QC",
 		zoom: 17,
 		arrowStyle: 1,
 		controls: {
@@ -153,7 +153,7 @@ $(document).ready(function(){
 	},
 		markers:[
 		{
-			address: "1515 Rue Ste-Catherine O, Montréal, QC",
+			address: "6750 Avenue de l'Esplanade, Montréal, QC",
 			popup: false,
 			icon: {
 				image: "../images/marker.png",

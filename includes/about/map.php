@@ -10,7 +10,7 @@
 			<div class="ci-inner col-md-6">
 				<i class="fa fa-map-marker"></i>
 				<p itemscope itemtype="http://schema.org/LocalBusiness">
-                    District 3 Innovation Center 1250 Guy Street, Suite 600, Montr&eacute;al, QC H3H 2L3
+                    6750 Avenue de l'Esplanade, Suite 355, Montr&eacute;al, QC H3V 4M1
                 </p>
 			</div>
 			<div class="ci-inner col-md-6">
