@@ -214,7 +214,7 @@
 		
 	// Default settings
 	$.fn.gMap.defaults = {
-		address: '6750 Avenue de l''Esplanade, Montréal, QC',
+		address: "6750 Avenue de l'Esplanade, Montréal, QC",
 		latitude: 45.495413,
 		longitude: -73.577693,
 		zoom: 1,
