@@ -22,9 +22,6 @@
                     <li>
                         <a id="footer_menu_signup" href="/signup#fromFooter">Sign up</a>
                     </li>
-                    <li>
-                        <a id="footer_menu_blog" href="http://blog.heddoko.com" target="_blank">Blog</a>
-                    </li>
                 </ul>
             </div>
         </div>
