@@ -7,19 +7,19 @@
 $links = array(null, null, null, null, null);
 switch($fileName) {
     case 'ergonomics':
-        $links[1] = 'active';
+        $links[0] = 'active';
     break;
     case 'sports':
-        $links[2] = 'active';
+        $links[1] = 'active';
     break;
     case 'about':
-        $links[3] = 'active';
+        $links[2] = 'active';
     break;
     case 'signup':
-        $links[4] = 'active';
+        $links[3] = 'active';
     break;
     case 'quote':
-        $links[5] = 'active';
+        $links[4] = 'active';
     break;
 }
 ?>
@@ -39,11 +39,11 @@ switch($fileName) {
                 <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                     <ul class="nav navbar-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="<?php echo $links[1]; ?>"><a id="nav_menu_ergonomics" href="/ergonomics">Ergonomics <span></span></a></li>
-                        <li class="<?php echo $links[2]; ?>"><a id="nav_menu_sports" href="/sports">Sports <span></span></a></li>
-                        <li class="<?php echo $links[3]; ?>"><a id="nav_menu_about" href="/about" role="button">About Us <span></span></a></li>
-                        <li class="<?php echo $links[5]; ?>"><a id="nav_menu_quote" class="btn btn-sm" href="/project#fromNavbar">Start Your Project</a></li>
-                        <li class="<?php echo $links[4]; ?> light-button"><a id="nav_menu_signup" href="/signup#fromNavbar" role="button">Sign Up</a></li>
+                        <li class="<?php echo $links[0]; ?>"><a id="nav_menu_ergonomics" href="/ergonomics">Ergonomics <span></span></a></li>
+                        <li class="<?php echo $links[1]; ?>"><a id="nav_menu_sports" href="/sports">Sports <span></span></a></li>
+                        <li class="<?php echo $links[2]; ?>"><a id="nav_menu_about" href="/about" role="button">About Us <span></span></a></li>
+                        <li class="<?php echo $links[4]; ?>"><a id="nav_menu_quote" class="btn btn-sm" href="/project#fromNavbar">Start Your Project</a></li>
+                        <li class="<?php echo $links[3]; ?> light-button"><a id="nav_menu_signup" href="/signup#fromNavbar" role="button">Sign Up</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
